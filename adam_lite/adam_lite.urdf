@@ -10,7 +10,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/pelvis.dae" />
+				<mesh filename="meshes/pelvis.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -37,7 +37,7 @@
 		<visual>
 			<origin rpy="0 0 0" xyz="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/vn100-0001.dae" />
+				<mesh filename="meshes/vn100-0001.dae" />
 			</geometry>
 			
 		</visual>
@@ -53,7 +53,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/hipPitchLeft.dae" />
+				<mesh filename="meshes/hipPitchLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -76,7 +76,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/hipRollLeft.dae" />
+				<mesh filename="meshes/hipRollLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -99,7 +99,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/thighLeft.dae" />
+				<mesh filename="meshes/thighLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -128,7 +128,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/shinLeft.dae" />
+				<mesh filename="meshes/shinLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -157,7 +157,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/anklePitchLeft.dae" />
+				<mesh filename="meshes/anklePitchLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -180,7 +180,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/toeLeft.dae" />
+				<mesh filename="meshes/toeLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -189,7 +189,7 @@
 		<collision name="toe_left">
 			<origin rpy="0 0 0" xyz="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/toeLeft.dae" />
+				<mesh filename="meshes/toeLeft.dae" />
 			</geometry>
 		</collision>
 	</link>
@@ -209,7 +209,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/hipPitchRight.dae" />
+				<mesh filename="meshes/hipPitchRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -232,7 +232,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/hipRollRight.dae" />
+				<mesh filename="meshes/hipRollRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -255,7 +255,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/thighRight.dae" />
+				<mesh filename="meshes/thighRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -284,7 +284,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/shinRight.dae" />
+				<mesh filename="meshes/shinRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -313,7 +313,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/anklePitchRight.dae" />
+				<mesh filename="meshes/anklePitchRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -336,7 +336,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/toeRight.dae" />
+				<mesh filename="meshes/toeRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -345,7 +345,7 @@
 		<collision name="toe_right">
 			<origin rpy="0 0 0" xyz="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/toeRight.dae" />
+				<mesh filename="meshes/toeRight.dae" />
 			</geometry>
 		</collision>
 	</link>
@@ -365,7 +365,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/waistRoll.dae" />
+				<mesh filename="meshes/waistRoll.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -388,7 +388,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/waistPitch.dae" />
+				<mesh filename="meshes/waistPitch.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -411,7 +411,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/torso.dae" />
+				<mesh filename="meshes/torso.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -440,7 +440,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/shoulderPitchLeft.dae" />
+				<mesh filename="meshes/shoulderPitchLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -463,7 +463,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/shoulderRollLeft.dae" />
+				<mesh filename="meshes/shoulderRollLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -492,7 +492,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/shoulderYawLeft.dae" />
+				<mesh filename="meshes/shoulderYawLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -521,7 +521,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/elbowLeft.dae" />
+				<mesh filename="meshes/elbowLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -544,7 +544,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/wristYawLeft.dae" />
+				<mesh filename="meshes/wristYawLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -573,7 +573,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/shoulderPitchRight.dae" />
+				<mesh filename="meshes/shoulderPitchRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -596,7 +596,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/shoulderRollRight.dae" />
+				<mesh filename="meshes/shoulderRollRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -625,7 +625,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/shoulderYawRight.dae" />
+				<mesh filename="meshes/shoulderYawRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -654,7 +654,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/elbowRight.dae" />
+				<mesh filename="meshes/elbowRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -677,7 +677,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes/wristYawRight.dae" />
+				<mesh filename="meshes/wristYawRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />

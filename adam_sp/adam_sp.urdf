@@ -3,8 +3,8 @@
 <!-- Copyright 2024 PNDbotics, https://www.pndbotics.com/ -->
 <!-- =================================================================================== -->
 <!-- This file contains the description of the adam lite robot. -->
-<robot name="standard_plus29_PNDHand">
-	<link name="world"/>
+<robot name="adam_sp">
+	<!-- <link name="world"/> -->
 	<link name="pelvis">
 		<inertial>
 			<origin xyz="-0.00120281  -0.00000119 -0.00802155" rpy="0 0 0" />
@@ -14,7 +14,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/pelvis.dae" />
+				<mesh filename="meshes/pelvis.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -41,11 +41,11 @@
 		<visual>
 			<origin rpy="0 0 0" xyz="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/vn100-0001.dae" />
+				<mesh filename="meshes/vn100-0001.dae" />
 			</geometry>
 		</visual>
 	</link>
-	
+<!-- 	
 	<joint name="floating_joint" type="floating">
 	<parent link="world"/>
 	<child link="pelvis"/>
@@ -57,7 +57,7 @@
 	<axis xyz="0 1 0" />
 	<axis xyz="0 0 1" />
 	</joint>
-	
+	 -->
 	<link name="hipPitchLeft">
 		<inertial>
 			<origin xyz="-0.05818187 0.05889478 -0.00031205" rpy="0 0 0" />
@@ -67,7 +67,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/hipPitchLeft.dae" />
+				<mesh filename="meshes/hipPitchLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -90,7 +90,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/hipRollLeft.dae" />
+				<mesh filename="meshes/hipRollLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -113,7 +113,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/thighLeft.dae" />
+				<mesh filename="meshes/thighLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -142,7 +142,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/shinLeft.dae" />
+				<mesh filename="meshes/shinLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -171,7 +171,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/anklePitchLeft.dae" />
+				<mesh filename="meshes/anklePitchLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -194,7 +194,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/toeLeft.dae" />
+				<mesh filename="meshes/toeLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -203,7 +203,7 @@
 		<collision name="toe_left">
 			<origin rpy="0 0 0" xyz="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/toeLeft.dae" />
+				<mesh filename="meshes/toeLeft.dae" />
 			</geometry>
 		</collision>
 	</link>
@@ -223,7 +223,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/hipPitchRight.dae" />
+				<mesh filename="meshes/hipPitchRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -246,7 +246,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/hipRollRight.dae" />
+				<mesh filename="meshes/hipRollRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -269,7 +269,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/thighRight.dae" />
+				<mesh filename="meshes/thighRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -298,7 +298,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/shinRight.dae" />
+				<mesh filename="meshes/shinRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -327,7 +327,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/anklePitchRight.dae" />
+				<mesh filename="meshes/anklePitchRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -350,7 +350,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/toeRight.dae" />
+				<mesh filename="meshes/toeRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -359,7 +359,7 @@
 		<collision name="toe_right">
 			<origin rpy="0 0 0" xyz="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/toeRight.dae" />
+				<mesh filename="meshes/toeRight.dae" />
 			</geometry>
 		</collision>
 	</link>
@@ -379,7 +379,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/waistRoll.dae" />
+				<mesh filename="meshes/waistRoll.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -402,7 +402,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/waistPitch.dae" />
+				<mesh filename="meshes/waistPitch.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -425,7 +425,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/torso.dae" />
+				<mesh filename="meshes/torso.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -454,7 +454,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/shoulderPitchLeft.dae" />
+				<mesh filename="meshes/shoulderPitchLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -477,7 +477,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/shoulderRollLeft.dae" />
+				<mesh filename="meshes/shoulderRollLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -506,7 +506,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/shoulderYawLeft.dae" />
+				<mesh filename="meshes/shoulderYawLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -535,7 +535,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/elbowLeft.dae" />
+				<mesh filename="meshes/elbowLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -558,7 +558,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/wristYawLeft.dae" />
+				<mesh filename="meshes/wristYawLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -587,7 +587,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/wristPitchLeft.dae" />
+				<mesh filename="meshes/wristPitchLeft.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -610,7 +610,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/wristRollLeft.STL" />
+				<mesh filename="meshes/wristRollLeft.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -619,7 +619,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/wristRollLeft.STL" />
+				<mesh filename="meshes/wristRollLeft.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -639,7 +639,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_thumb_proximal_base.STL" />
+				<mesh filename="meshes/L_thumb_proximal_base.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -648,7 +648,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_thumb_proximal_base.STL" />
+				<mesh filename="meshes/L_thumb_proximal_base.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -667,7 +667,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_thumb_proximal.STL" />
+				<mesh filename="meshes/L_thumb_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -676,7 +676,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_thumb_proximal.STL" />
+				<mesh filename="meshes/L_thumb_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -695,7 +695,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_thumb_intermediate.STL" />
+				<mesh filename="meshes/L_thumb_intermediate.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -704,7 +704,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_thumb_intermediate.STL" />
+				<mesh filename="meshes/L_thumb_intermediate.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -723,7 +723,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_thumb_distal.STL" />
+				<mesh filename="meshes/L_thumb_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -732,7 +732,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_thumb_distal.STL" />
+				<mesh filename="meshes/L_thumb_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -751,7 +751,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_index_proximal.STL" />
+				<mesh filename="meshes/L_index_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -760,7 +760,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_index_proximal.STL" />
+				<mesh filename="meshes/L_index_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -779,7 +779,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_index_distal.STL" />
+				<mesh filename="meshes/L_index_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -788,7 +788,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_index_distal.STL" />
+				<mesh filename="meshes/L_index_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -807,7 +807,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_middle_proximal.STL" />
+				<mesh filename="meshes/L_middle_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -816,7 +816,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_middle_proximal.STL" />
+				<mesh filename="meshes/L_middle_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -835,7 +835,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_middle_distal.STL" />
+				<mesh filename="meshes/L_middle_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -844,7 +844,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_middle_distal.STL" />
+				<mesh filename="meshes/L_middle_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -863,7 +863,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_ring_proximal.STL" />
+				<mesh filename="meshes/L_ring_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -872,7 +872,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_ring_proximal.STL" />
+				<mesh filename="meshes/L_ring_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -891,7 +891,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_ring_distal.STL" />
+				<mesh filename="meshes/L_ring_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -900,7 +900,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_ring_distal.STL" />
+				<mesh filename="meshes/L_ring_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -919,7 +919,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_pinky_proximal.STL" />
+				<mesh filename="meshes/L_pinky_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -928,7 +928,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_pinky_proximal.STL" />
+				<mesh filename="meshes/L_pinky_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -947,7 +947,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_pinky_distal.STL" />
+				<mesh filename="meshes/L_pinky_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -956,7 +956,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/L_pinky_distal.STL" />
+				<mesh filename="meshes/L_pinky_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -975,7 +975,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/shoulderPitchRight.dae" />
+				<mesh filename="meshes/shoulderPitchRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -998,7 +998,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/shoulderRollRight.dae" />
+				<mesh filename="meshes/shoulderRollRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -1027,7 +1027,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/shoulderYawRight.dae" />
+				<mesh filename="meshes/shoulderYawRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -1056,7 +1056,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/elbowRight.dae" />
+				<mesh filename="meshes/elbowRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -1079,7 +1079,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/wristYawRight.dae" />
+				<mesh filename="meshes/wristYawRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -1108,7 +1108,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/wristPitchRight.dae" />
+				<mesh filename="meshes/wristPitchRight.dae" />
 			</geometry>
 			<material name="">
 				<color rgba="1 1 1 1" />
@@ -1131,7 +1131,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/wristRollRight.STL" />
+				<mesh filename="meshes/wristRollRight.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1140,7 +1140,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/wristRollRight.STL" />
+				<mesh filename="meshes/wristRollRight.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1160,7 +1160,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_thumb_proximal_base.STL" />
+				<mesh filename="meshes/R_thumb_proximal_base.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1169,7 +1169,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_thumb_proximal_base.STL" />
+				<mesh filename="meshes/R_thumb_proximal_base.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1188,7 +1188,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_thumb_proximal.STL" />
+				<mesh filename="meshes/R_thumb_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1197,7 +1197,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_thumb_proximal.STL" />
+				<mesh filename="meshes/R_thumb_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1216,7 +1216,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_thumb_intermediate.STL" />
+				<mesh filename="meshes/R_thumb_intermediate.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1225,7 +1225,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_thumb_intermediate.STL" />
+				<mesh filename="meshes/R_thumb_intermediate.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1244,7 +1244,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_thumb_distal.STL" />
+				<mesh filename="meshes/R_thumb_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1253,7 +1253,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_thumb_distal.STL" />
+				<mesh filename="meshes/R_thumb_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1272,7 +1272,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_index_proximal.STL" />
+				<mesh filename="meshes/R_index_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1281,7 +1281,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_index_proximal.STL" />
+				<mesh filename="meshes/R_index_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1300,7 +1300,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_index_distal.STL" />
+				<mesh filename="meshes/R_index_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1309,7 +1309,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_index_distal.STL" />
+				<mesh filename="meshes/R_index_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1328,7 +1328,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_middle_proximal.STL" />
+				<mesh filename="meshes/R_middle_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1337,7 +1337,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_middle_proximal.STL" />
+				<mesh filename="meshes/R_middle_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1356,7 +1356,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_middle_distal.STL" />
+				<mesh filename="meshes/R_middle_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1365,7 +1365,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_middle_distal.STL" />
+				<mesh filename="meshes/R_middle_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1384,7 +1384,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_ring_proximal.STL" />
+				<mesh filename="meshes/R_ring_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1393,7 +1393,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_ring_proximal.STL" />
+				<mesh filename="meshes/R_ring_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1412,7 +1412,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_ring_distal.STL" />
+				<mesh filename="meshes/R_ring_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1421,7 +1421,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_ring_distal.STL" />
+				<mesh filename="meshes/R_ring_distal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1440,7 +1440,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_pinky_proximal.STL" />
+				<mesh filename="meshes/R_pinky_proximal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1449,7 +1449,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_pinky_proximal.STL" />
+				<mesh filename="meshes/R_pinky_proximal.STL" />
 			</geometry>
 		</collision>
 	</link>
@@ -1468,7 +1468,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_pinky_distal.STL" />
+				<mesh filename="meshes/R_pinky_distal.STL" />
 			</geometry>
 			<material name="">
 				<color rgba="0.75294 0.75294 0.75294 1" />
@@ -1477,7 +1477,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="../meshes_standard_plus29_PNDHand/R_pinky_distal.STL" />
+				<mesh filename="meshes/R_pinky_distal.STL" />
 			</geometry>
 		</collision>
 	</link>

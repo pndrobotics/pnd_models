@@ -559,7 +559,7 @@
 			</geometry>
 		</collision>
 	</link>
-	<joint name="wristYaw_Left" type="fixed">
+	<joint name="wristYaw_Left" type="revolute">
 		<origin xyz="-0.025 0.0285 -0.0729" rpy="0 0 0" />
 		<parent link="elbowLeft" />
 		<child link="wristYawLeft" />
@@ -582,7 +582,7 @@
 			</material>
 		</visual>
 	</link>
-	<joint name="wristPitch_Left" type="fixed">
+	<joint name="wristPitch_Left" type="revolute">
 		<origin xyz="0 0 -0.2017" rpy="0 0 0" />
 		<parent link="wristYawLeft" />
 		<child link="wristPitchLeft" />
@@ -715,7 +715,7 @@
 			</geometry>
 		</collision>
 	</link>
-	<joint name="wristYaw_Right" type="fixed">
+	<joint name="wristYaw_Right" type="revolute">
 		<origin xyz="-0.025 -0.0285 -0.0729" rpy="0 0 0" />
 		<parent link="elbowRight" />
 		<child link="wristYawRight" />
@@ -738,7 +738,7 @@
 			</material>
 		</visual>
 	</link>
-	<joint name="wristPitch_Right" type="fixed">
+	<joint name="wristPitch_Right" type="revolute">
 		<origin xyz="0 0 -0.201699999719004" rpy="0 0 0" />
 		<parent link="wristYawRight" />
 		<child link="wristPitchRight" />

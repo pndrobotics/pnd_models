@@ -9,7 +9,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/lifting_Columns.STL" />
+        <mesh filename="meshes_dae/lifting_Columns.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -31,7 +31,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/waistRoll.STL" />
+        <mesh filename="meshes_dae/waistRoll.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -60,7 +60,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/waistPitch.STL" />
+        <mesh filename="meshes_dae/waistPitch.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -89,7 +89,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/torso.STL" />
+        <mesh filename="meshes_dae/torso.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -118,7 +118,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/shoulderPitchLeft.STL" />
+        <mesh filename="meshes_dae/shoulderPitchLeft.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -147,7 +147,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/shoulderRollLeft.STL" />
+        <mesh filename="meshes_dae/shoulderRollLeft.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -176,7 +176,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/shoulderYawLeft.STL" />
+        <mesh filename="meshes_dae/shoulderYawLeft.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -205,7 +205,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/elbowLeft.STL" />
+        <mesh filename="meshes_dae/elbowLeft.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -234,7 +234,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/wristYawLeft.STL" />
+        <mesh filename="meshes_dae/wristYawLeft.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -263,7 +263,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/wristPitchLeft.STL" />
+        <mesh filename="meshes_dae/wristPitchLeft.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -292,7 +292,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/wristRollLeft.STL" />
+        <mesh filename="meshes_dae/wristRollLeft.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -321,7 +321,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_thumb_proximal_base.STL" />
+        <mesh filename="meshes_dae/L_thumb_proximal_base.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -350,7 +350,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_thumb_proximal.STL" />
+        <mesh filename="meshes_dae/L_thumb_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -379,7 +379,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_thumb_intermediate.STL" />
+        <mesh filename="meshes_dae/L_thumb_intermediate.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -408,7 +408,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_thumb_distal.STL" />
+        <mesh filename="meshes_dae/L_thumb_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -437,7 +437,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_index_proximal.STL" />
+        <mesh filename="meshes_dae/L_index_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -466,7 +466,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_index_distal.STL" />
+        <mesh filename="meshes_dae/L_index_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -495,7 +495,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_middle_proximal.STL" />
+        <mesh filename="meshes_dae/L_middle_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -524,7 +524,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_middle_distal.STL" />
+        <mesh filename="meshes_dae/L_middle_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -553,7 +553,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_ring_proximal.STL" />
+        <mesh filename="meshes_dae/L_ring_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -582,7 +582,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_ring_distal.STL" />
+        <mesh filename="meshes_dae/L_ring_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -611,7 +611,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_pinky_proximal.STL" />
+        <mesh filename="meshes_dae/L_pinky_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -640,7 +640,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/L_pinky_distal.STL" />
+        <mesh filename="meshes_dae/L_pinky_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -669,7 +669,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/shoulderPitchRight.STL" />
+        <mesh filename="meshes_dae/shoulderPitchRight.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -698,7 +698,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/shoulderRollRight.STL" />
+        <mesh filename="meshes_dae/shoulderRollRight.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -727,7 +727,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/shoulderYawRight.STL" />
+        <mesh filename="meshes_dae/shoulderYawRight.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -756,7 +756,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/elbowRight.STL" />
+        <mesh filename="meshes_dae/elbowRight.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -785,7 +785,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/wristYawRight.STL" />
+        <mesh filename="meshes_dae/wristYawRight.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -814,7 +814,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/wristPitchRight.STL" />
+        <mesh filename="meshes_dae/wristPitchRight.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -843,7 +843,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/wristRollRight.STL" />
+        <mesh filename="meshes_dae/wristRollRight.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -872,7 +872,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_thumb_proximal_base.STL" />
+        <mesh filename="meshes_dae/R_thumb_proximal_base.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -901,7 +901,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_thumb_proximal.STL" />
+        <mesh filename="meshes_dae/R_thumb_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -930,7 +930,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_thumb_intermediate.STL" />
+        <mesh filename="meshes_dae/R_thumb_intermediate.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -959,7 +959,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_thumb_distal.STL" />
+        <mesh filename="meshes_dae/R_thumb_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -988,7 +988,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_index_proximal.STL" />
+        <mesh filename="meshes_dae/R_index_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1017,7 +1017,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_index_distal.STL" />
+        <mesh filename="meshes_dae/R_index_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1046,7 +1046,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_middle_proximal.STL" />
+        <mesh filename="meshes_dae/R_middle_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1075,7 +1075,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_middle_distal.STL" />
+        <mesh filename="meshes_dae/R_middle_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1104,7 +1104,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_ring_proximal.STL" />
+        <mesh filename="meshes_dae/R_ring_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1133,7 +1133,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_ring_distal.STL" />
+        <mesh filename="meshes_dae/R_ring_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1162,7 +1162,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_pinky_proximal.STL" />
+        <mesh filename="meshes_dae/R_pinky_proximal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1191,7 +1191,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/R_pinky_distal.STL" />
+        <mesh filename="meshes_dae/R_pinky_distal.dae" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1220,7 +1220,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/neckYaw.STL" />
+        <mesh filename="meshes_dae/neckYaw.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1249,7 +1249,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/neckPitch.STL" />
+        <mesh filename="meshes_dae/neckPitch.dae" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />

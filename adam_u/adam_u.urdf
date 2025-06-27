@@ -22,7 +22,7 @@
       </geometry>
     </collision>
   </link>
-  <link name="waistRoll">
+  <link name="waistRoll_link">
     <inertial>
       <origin xyz="0.00093826 0.00093832 0.03999995" rpy="0 0 0" />
       <mass value="2.36268465" />
@@ -51,7 +51,7 @@
     <axis xyz="1 0 0" />
     <limit lower="-0.279" upper="0.279" effort="110" velocity="8" />
   </joint>
-  <link name="waistPitch">
+  <link name="waistPitch_link">
     <inertial>
       <origin xyz="-0.00008401 0.00189362 0.02548321" rpy="0 0 0" />
       <mass value="0.56353776" />
@@ -1211,7 +1211,7 @@
     <axis xyz="1 0 0" />
     <limit lower="0" upper="1.6" effort="1" velocity="1" />
   </joint>
-  <link name="neckYaw">
+  <link name="neckYaw_link">
     <inertial>
       <origin xyz="0.02291662 -0.00099716 0.10018738" rpy="0 0 0" />
       <mass value="0.41242410" />
@@ -1240,7 +1240,7 @@
     <axis xyz="0 0 1" />
     <limit lower="-1.571" upper="1.571" effort="6.4" velocity="5" />
   </joint>
-  <link name="neckPitch">
+  <link name="neckPitch_link">
     <inertial>
       <origin xyz="0.01790361 -0.02046619 0.04596285" rpy="0 0 0" />
       <mass value="0.99740875" />

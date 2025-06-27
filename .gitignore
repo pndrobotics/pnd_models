@@ -1,3 +1,6 @@
 /adam_standard_*
 /adam_sp_*
 .DS_Store
+
+.pytest_cache/
+__pycache__/

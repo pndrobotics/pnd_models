@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<robot name="adam-sp-pvt2">
+<robot name="adam_sp">
   <link name="pelvis">
     <inertial>
       <origin xyz="-0.00178389008027529 -1.30324599985064E-06 -0.00598302448771916" rpy="0 0 0" />
@@ -358,7 +358,7 @@
     <child link="toeRight" />
     <axis xyz="0.999999999999795 0 0" />
   </joint>
-  <link name="waistRoll">
+  <link name="waistRoll_link">
     <inertial>
       <origin xyz="0.000540548207672857 0.000540495947245869 0.0400000242347388" rpy="0 0 0" />
       <mass value="0.674091084130766" />
@@ -386,7 +386,7 @@
     <child link="waistRoll" />
     <axis xyz="1 0 0" />
   </joint>
-  <link name="waistPitch">
+  <link name="waistPitch_link">
     <inertial>
       <origin xyz="-0.000742968040598334 0.00380091743366323 0.0220989827012152" rpy="0 0 0" />
       <mass value="0.188254684395963" />

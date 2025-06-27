@@ -99,14 +99,14 @@
       <geom mesh="lifting_Columns_1" material="black" class="visual" />
       <geom mesh="lifting_Columns_0" class="collision" />
       <geom mesh="lifting_Columns_1" class="collision" />
-      <body name="waistRoll" pos="0 0 0.0767">
+      <body name="waistRoll_link" pos="0 0 0.0767">
         <inertial pos="0.00093826 0.00093832 0.0399999" quat="0.383833 0.0123801 -0.00511148 0.923305" mass="2.36268" diaginertia="0.00543471 0.00542871 0.00184736" />
         <joint name="waistRoll" pos="0 0 0" axis="1 0 0" range="-0.279 0.279" actuatorfrcrange="-110 110" />
         <geom mesh="waistRoll_0" material="black" class="visual" />
         <geom mesh="waistRoll_1" material="sliver" class="visual" />
         <geom mesh="waistRoll_0" class="collision" />
         <geom mesh="waistRoll_1" class="collision" />
-        <body name="waistPitch" pos="0 0 0.08">
+        <body name="waistPitch_link" pos="0 0 0.08">
           <inertial pos="-8.401e-05 0.00189362 0.0254832" quat="0.516813 0.52977 -0.475496 0.475554" mass="0.563538" diaginertia="0.00155964 0.00151442 0.000672501" />
           <joint name="waistPitch" pos="0 0 0" axis="0 1 0" range="-0.663 1.361" actuatorfrcrange="-110 110" />
           <geom mesh="waistPitch_0" material="sliver" class="visual" />
@@ -408,7 +408,7 @@
                 </body>
               </body>
             </body>
-            <body name="neckYaw" pos="-0.013 0 0.29855">
+            <body name="neckYaw_link" pos="-0.013 0 0.29855">
               <inertial pos="0.0229166 -0.00099716 0.100187" quat="0.528239 -0.102157 -0.0585684 0.840891" mass="0.412424" diaginertia="0.00129645 0.00128003 0.00012854" />
               <joint name="neckYaw" pos="0 0 0" axis="0 0 1" range="-1.571 1.571" actuatorfrcrange="-6.4 6.4" />
               <geom material="black" mesh="neckYaw" class="visual" />

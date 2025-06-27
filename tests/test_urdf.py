@@ -13,8 +13,8 @@ def test_urdf_files():
     for file in all_test_urdf:
         print(f"Found URDF file: {file}")
         assert file.suffix == ".urdf", f"Found non-URDF file: {file}"
-        
-def test_urdf():
+
+def test_urdf_links_and_joints_names():
     for file in all_test_urdf:
         tree = ET.parse(file)
         root = tree.getroot()

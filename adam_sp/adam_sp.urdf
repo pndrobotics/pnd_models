@@ -22,6 +22,24 @@
       </geometry>
     </collision>
   </link>
+  <joint name="imu_joint" type="fixed">
+    <parent link="pelvis" />
+    <child link="imu_link" />
+    <origin rpy="0 0 0" xyz="0 0 0" />
+  </joint>
+  <link name="imu_link">
+    <inertial>
+      <mass value="0.001" />
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/vn100-0001.dae" />
+      </geometry>
+    </visual>
+  </link>
   <link name="hipPitchLeft">
     <inertial>
       <origin xyz="-0.05660220 0.05761439 -0.00077159" rpy="0 0 0" />

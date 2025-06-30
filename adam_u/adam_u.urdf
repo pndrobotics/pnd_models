@@ -47,7 +47,7 @@
   <joint name="waistRoll" type="revolute">
     <origin xyz="0 0 0.0767" rpy="0 0 0" />
     <parent link="lifting_Columns" />
-    <child link="waistRoll" />
+    <child link="waistRoll_link" />
     <axis xyz="1 0 0" />
     <limit lower="-0.279" upper="0.279" effort="110" velocity="8" />
   </joint>
@@ -75,8 +75,8 @@
   </link>
   <joint name="waistPitch" type="revolute">
     <origin xyz="0 0 0.08" rpy="0 0 0" />
-    <parent link="waistRoll" />
-    <child link="waistPitch" />
+    <parent link="waistRoll_link" />
+    <child link="waistPitch_link" />
     <axis xyz="0 1 0" />
     <limit lower="-0.663" upper="1.361" effort="110" velocity="8" />
   </joint>
@@ -104,7 +104,7 @@
   </link>
   <joint name="waistYaw" type="revolute">
     <origin xyz="0 0.0005 0.053" rpy="0 0 0" />
-    <parent link="waistPitch" />
+    <parent link="waistPitch_link" />
     <child link="torso" />
     <axis xyz="0 0 1" />
     <limit lower="-0.829" upper="0.829" effort="110" velocity="8" />
@@ -1236,7 +1236,7 @@
   <joint name="neckYaw" type="revolute">
     <origin xyz="-0.013 0 0.29855" rpy="0 0 0" />
     <parent link="torso" />
-    <child link="neckYaw" />
+    <child link="neckYaw_link" />
     <axis xyz="0 0 1" />
     <limit lower="-1.571" upper="1.571" effort="6.4" velocity="5" />
   </joint>
@@ -1264,8 +1264,8 @@
   </link>
   <joint name="neckPitch" type="revolute">
     <origin xyz="0.0316 0.02 0.14595" rpy="0 0 0" />
-    <parent link="neckYaw" />
-    <child link="neckPitch" />
+    <parent link="neckYaw_link" />
+    <child link="neckPitch_link" />
     <axis xyz="0 1 0" />
     <limit lower="-0.873" upper="0.873" effort="6.4" velocity="5" />
   </joint>

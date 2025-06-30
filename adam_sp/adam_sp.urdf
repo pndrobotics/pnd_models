@@ -33,12 +33,6 @@
       <origin rpy="0 0 0" xyz="0 0 0" />
       <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
     </inertial>
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0" />
-      <geometry>
-        <mesh filename="meshes/vn100-0001.dae" />
-      </geometry>
-    </visual>
   </link>
   <link name="hipPitchLeft">
     <inertial>

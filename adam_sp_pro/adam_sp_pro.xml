@@ -94,7 +94,7 @@
                   <inertial pos="0.0374997 -4.016e-05 -0.0419674" quat="0.00341207 0.66841 -0.00284521 0.74378" mass="0.634796" diaginertia="0.0023347 0.00226908 0.000434692" />
                   <joint name="ankleRoll_Left" pos="0 0 0" axis="1 0 0" range="-0.3491 0.3491" actuatorfrcrange="-12 12" />
                   <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="toeLeft" />
-                  <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="toeLeft" />
+                  <geom name="toe_left" size="0.12 0.05 0.015" pos="0.047 0.0 -0.05" quat="0 0 0 1" type="box" rgba="1 0 0 0" />
                 </body>
               </body>
             </body>
@@ -130,7 +130,7 @@
                   <inertial pos="0.0375023 4.002e-05 -0.0419671" quat="-0.00346801 0.668408 0.00279542 0.743782" mass="0.634808" diaginertia="0.0023347 0.00226908 0.00043472" />
                   <joint name="ankleRoll_Right" pos="0 0 0" axis="1 0 0" range="-0.3491 0.3491" actuatorfrcrange="-12 12" />
                   <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="toeRight" />
-                  <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="toeRight" />
+                  <geom name="toe_right" size="0.12 0.05 0.015" pos="0.047 0.0 -0.05" quat="0 0 0 1" type="box" rgba="1 0 0 0" />
                 </body>
               </body>
             </body>
@@ -395,6 +395,7 @@
           </body>
         </body>
       </body>
+      <site name="imu" pos="0 0 0" />
     </body>
   </worldbody>
   <actuator>
@@ -620,5 +621,10 @@
     <jointactuatorfrc name="force_R_pinky_DIP_joint" joint="R_pinky_DIP_joint" />
     <jointactuatorfrc name="force_neckYaw" joint="neckYaw" />
     <jointactuatorfrc name="force_neckPitch" joint="neckPitch" />
+    <accelerometer name="BodyAcc" site="imu" />
+    <gyro name="BodyGyro" site="imu" />
+    <framepos name="BodyPos" objtype="site" objname="imu" />
+    <framelinvel name="BodyVel" objtype="site" objname="imu" />
+    <framequat name="BodyQuat" objtype="site" objname="imu" />
   </sensor>
 </mujoco>

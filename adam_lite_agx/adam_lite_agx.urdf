@@ -3,7 +3,7 @@
 <!-- Copyright 2024 PNDbotics, https://www.pndbotics.com/ -->
 <!-- =================================================================================== -->
 <!-- This file contains the description of the adam lite robot. -->
-<robot name="adam_lite">
+<robot name="adam_lite_agx">
 	<!-- <link name="world"/> -->
 	<link name="pelvis">
 		<inertial>
@@ -427,9 +427,9 @@
 	</joint>
 	<link name="torso">
 		<inertial>
-			<origin xyz="0.00014300 0.00050556 0.18336920" rpy="0 0 0" />
-			<mass value="12.89652496" />
-			<inertia ixx="0.19855642" ixy="-0.00036714" ixz="0.00331900" iyy="0.16612827" iyz="-0.00021516" izz="0.06625123" />
+			<origin xyz="-0.01521531 0.00043286 0.18565941" rpy="0 0 0" />
+			<mass value="15.04143747" />
+			<inertia ixx="0.21555830" ixy="-0.00026796" ixz="-0.00030003" iyy="0.19524513" iyz="-0.00012061" izz="0.09864634" />
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />

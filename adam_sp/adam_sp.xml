@@ -605,4 +605,11 @@
     <framelinvel name="BodyVel" objtype="site" objname="imu" />
     <framequat name="BodyQuat" objtype="site" objname="imu" />
   </sensor>
+
+  <contact>
+    <exclude body1="wristYawLeft" body2="wristRollLeft"/>
+    <exclude body1="wristRollLeft" body2="L_thumb_proximal"/>
+    <exclude body1="wristYawRight" body2="wristRollRight"/>
+    <exclude body1="wristRollRight" body2="R_thumb_proximal"/>
+  </contact>
 </mujoco>

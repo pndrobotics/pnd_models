@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="adam_sp_pro">
+  <mujoco>
+    <compiler meshdir="meshes_stl_0.25/" balanceinertia="true" discardvisual="false" />
+  </mujoco>
   <link name="pelvis">
     <inertial>
       <origin xyz="-0.00034724 0.00000000 -0.00735759" rpy="0 0 0" />
@@ -22,6 +25,12 @@
       </geometry>
     </collision>
   </link>
+	<link name="imu_link"></link>
+	<joint name="imu_joint" type="fixed">
+		<parent link="pelvis" />
+		<child link="imu_link" />
+		<origin rpy="0 0 0" xyz="0 0 0" />
+	</joint>
   <link name="hipPitchLeft">
     <inertial>
       <origin xyz="-0.05660220 0.05761439 -0.00077159" rpy="0 0 0" />
@@ -37,12 +46,6 @@
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="meshes_stl_0.25/hipPitchLeft.STL" />
-      </geometry>
-    </collision>
   </link>
   <joint name="hipPitch_Left" type="revolute">
     <origin xyz="0 0.0961924921295064 -0.0332411879418571" rpy="-0.610865238197473 0 0" />
@@ -183,9 +186,9 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0.05 0 -0.055" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/toeLeft.STL" />
+        <box size="0.24 0.1 0.02" />
       </geometry>
     </collision>
   </link>
@@ -211,12 +214,6 @@
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="meshes_stl_0.25/hipPitchRight.STL" />
-      </geometry>
-    </collision>
   </link>
   <joint name="hipPitch_Right" type="revolute">
     <origin xyz="0 -0.0961924781696877 -0.0332412045786055" rpy="0.610865238197555 0 0" />
@@ -357,9 +354,9 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
+      <origin xyz="0.05 0 -0.055" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_stl_0.25/toeRight.STL" />
+        <box size="0.24 0.1 0.02" />
       </geometry>
     </collision>
   </link>
@@ -646,12 +643,6 @@
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="meshes_stl_0.25/wristRollLeft.STL" />
-      </geometry>
-    </collision>
   </link>
   <joint name="wristRoll_Left" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0" />
@@ -733,12 +724,6 @@
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="meshes_stl_0.25/L_thumb_intermediate.STL" />
-      </geometry>
-    </collision>
   </link>
   <joint name="L_thumb_PIP_joint" type="revolute">
     <origin xyz="0.0442885641132063 0 -0.0376632856876562" rpy="0 0 0" />
@@ -1197,12 +1182,6 @@
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="meshes_stl_0.25/wristRollRight.STL" />
-      </geometry>
-    </collision>
   </link>
   <joint name="wristRoll_Right" type="revolute">
     <origin xyz="0 0 0" rpy="0 0 0" />
@@ -1284,12 +1263,6 @@
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="meshes_stl_0.25/R_thumb_intermediate.STL" />
-      </geometry>
-    </collision>
   </link>
   <joint name="R_thumb_PIP_joint" type="revolute">
     <origin xyz="0.044288564116179 0 -0.0376632856841606" rpy="0 0 0" />

@@ -114,40 +114,40 @@
           <geom mesh="waistPitch_0" class="collision" />
           <geom mesh="waistPitch_1" class="collision" />
           <body name="torso" pos="0 0.0005 0.053">
-            <inertial pos="-0.00189583 0.00055253 0.163317" quat="0.999349 -0.00096284 0.0357386 -0.00492242" mass="12.2299" diaginertia="0.117556 0.0821464 0.0642412" />
+            <inertial pos="-0.00183601 0.00056583 0.166624" quat="0.999453 -0.000219402 0.032831 -0.00390757" mass="12.7334" diaginertia="0.13029 0.0859384 0.0736824" />
             <joint name="waistYaw" pos="0 0 0" axis="0 0 1" range="-0.829 0.829" actuatorfrcrange="-110 110" />
             <geom mesh="torso_0" material="black" class="visual" />
             <geom mesh="torso_1" material="sliver" class="visual" />
             <geom mesh="torso_0" class="collision" />
             <geom mesh="torso_1" class="collision" />
-            <body name="shoulderPitchLeft" pos="0 0.16049 0.25755" quat="0.984807 0.17365 0 0">
-              <inertial pos="-0.00066946 0.0263972 0" quat="-0.0066135 0.707076 0.0066135 0.707076" mass="0.216536" diaginertia="0.0003696 0.000307242 0.000186398" />
+            <body name="shoulderPitchLeft" pos="0 0.165094 0.25923" quat="0.984808 0.173648 0 0">
+              <inertial pos="0.00542694 0.0268987 0.00010792" quat="0.0525836 0.7027 -0.0564441 0.707292" mass="0.216148" diaginertia="0.000380649 0.000322752 0.000187229" />
               <joint name="shoulderPitch_Left" pos="0 0 0" axis="0 1 0" range="-3.613 2.042" actuatorfrcrange="-65 65" />
               <geom material="sliver" mesh="shoulderPitchLeft" class="visual" />
               <geom mesh="shoulderPitchLeft" class="collision" />
-              <body name="shoulderRollLeft" pos="0.0335 0.0435 0" quat="0.984807 -0.17365 0 0">
-                <inertial pos="-0.0333022 0.00736791 -0.00952035" quat="0.870134 -0.307111 0.128171 0.363486" mass="0.746227" diaginertia="0.000815538 0.00078791 0.000372512" />
+              <body name="shoulderRollLeft" pos="0.0362 0.0435 0" quat="0.984808 -0.173648 0 0">
+                <inertial pos="-0.0343733 0.00962154 -0.0154456" quat="0.915483 -0.248083 -0.0900009 -0.303719" mass="1.07882" diaginertia="0.0016821 0.0016513 0.000668275" />
                 <joint name="shoulderRoll_Left" pos="0 0 0" axis="1 0 0" range="-0.628 2.793" actuatorfrcrange="-65 65" />
                 <geom mesh="shoulderRollLeft_0" material="sliver" class="visual" />
                 <geom mesh="shoulderRollLeft_1" material="black" class="visual" />
                 <geom mesh="shoulderRollLeft_0" class="collision" />
                 <geom mesh="shoulderRollLeft_1" class="collision" />
-                <body name="shoulderYawLeft" pos="-0.0335 0.034 -0.0585">
-                  <inertial pos="-0.00062397 -0.00062667 -0.0812219" quat="0.999905 0.0103613 -0.00814723 0.00405324" mass="0.765739" diaginertia="0.00351373 0.00340393 0.000461796" />
+                <body name="shoulderYawLeft" pos="-0.0362 0.034 -0.0797">
+                  <inertial pos="-0.00051421 -0.00044442 -0.0619328" quat="0.999905 0.00947141 -0.00878878 0.00478573" mass="0.90142" diaginertia="0.00328642 0.00317319 0.000574119" />
                   <joint name="shoulderYaw_Left" pos="0 0 0" axis="0 0 1" range="-2.583 2.583" actuatorfrcrange="-65 65" />
                   <geom mesh="shoulderYawLeft_0" material="sliver" class="visual" />
                   <geom mesh="shoulderYawLeft_1" material="black" class="visual" />
                   <geom mesh="shoulderYawLeft_0" class="collision" />
                   <geom mesh="shoulderYawLeft_1" class="collision" />
-                  <body name="elbowLeft" pos="0 -0.0285 -0.20415">
-                    <inertial pos="-0.0136686 0.0291439 -0.0235134" quat="0.873222 -0.101775 -0.232585 0.415968" mass="0.877615" diaginertia="0.00100437 0.000975645 0.000422992" />
+                  <body name="elbowLeft" pos="0 -0.0285 -0.18295">
+                    <inertial pos="-0.0140727 0.0292971 -0.0253473" quat="0.882767 -0.0885577 -0.220164 0.405471" mass="0.917707" diaginertia="0.0011212 0.00108213 0.000458232" />
                     <joint name="elbow_Left" pos="0 0 0" axis="0 1 0" range="-2.496 0.209" actuatorfrcrange="-30 30" />
                     <geom mesh="elbowLeft_0" material="black" class="visual" />
                     <geom mesh="elbowLeft_1" material="sliver" class="visual" />
                     <geom mesh="elbowLeft_0" class="collision" />
                     <geom mesh="elbowLeft_1" class="collision" />
                     <body name="wristYawLeft" pos="-0.025 0.0285 -0.0729">
-                      <inertial pos="-0.00204137 0.00010627 -0.0921678" quat="0.999621 -0.00660845 -0.00776879 -0.0255601" mass="0.955879" diaginertia="0.002562 0.00250145 0.000550223" />
+                      <inertial pos="-0.00174399 0.0001059 -0.0921606" quat="0.999598 -0.00413874 -0.00815289 -0.0268553" mass="0.955879" diaginertia="0.00254024 0.0024845 0.00052605" />
                       <joint name="wristYaw_Left" pos="0 0 0" axis="0 0 1" range="-2.67 2.67" actuatorfrcrange="-6.4 6.4" />
                       <geom mesh="wristYawLeft_0" material="black" class="visual" />
                       <geom mesh="wristYawLeft_1" material="sliver" class="visual" />
@@ -170,19 +170,19 @@
                             <joint name="L_thumb_MCP_joint1" pos="0 0 0" axis="0 0 -1" range="0 1.1" actuatorfrcrange="-1 1" />
                             <geom material="sliver" mesh="L_thumb_proximal_base" class="visual" />
                             <geom mesh="L_thumb_proximal_base" class="collision" />
-                            <body name="L_thumb_proximal" pos="0.011954 -0.0010497 0" quat="0.999041 0 0 -0.0437785">
+                            <body name="L_thumb_proximal" pos="0.011954 -0.00104968 0" quat="0.999041 0 0 -0.0437786">
                               <inertial pos="0.0236969 0 -0.0146724" quat="0.655148 0.266048 0.266048 0.655148" mass="0.0615843" diaginertia="2.013e-05 1.73022e-05 5.79777e-06" />
                               <joint name="L_thumb_MCP_joint2" pos="0 0 0" axis="0 1 0" range="0 0.5" actuatorfrcrange="-1 1" />
                               <geom mesh="L_thumb_proximal_0" material="sliver" class="visual" />
                               <geom mesh="L_thumb_proximal_1" material="black" class="visual" />
                               <geom mesh="L_thumb_proximal_0" class="collision" />
                               <geom mesh="L_thumb_proximal_1" class="collision" />
-                              <body name="L_thumb_intermediate" pos="0.044289 0 -0.037663">
+                              <body name="L_thumb_intermediate" pos="0.0442886 0 -0.0376633">
                                 <inertial pos="0.00973134 0 -0.00266466" quat="0.681637 0.188072 0.188072 0.681637" mass="0.0153834" diaginertia="1.72e-06 1.65294e-06 7.67055e-07" />
                                 <joint name="L_thumb_PIP_joint" pos="0 0 0" axis="0 1 0" range="0 1" actuatorfrcrange="-1 1" />
                                 <geom material="sliver" mesh="L_thumb_intermediate" class="visual" />
                                 <geom mesh="L_thumb_intermediate" class="collision" />
-                                <body name="L_thumb_distal" pos="0.016468 0 -0.015461">
+                                <body name="L_thumb_distal" pos="0.0164679 0 -0.0154615">
                                   <inertial pos="0.00714221 -1.54e-06 -0.00689404" quat="0.967006 0 0.254755 0" mass="0.0104374" diaginertia="8.73238e-07 8.6e-07 4.06762e-07" />
                                   <joint name="L_thumb_DIP_joint" pos="0 0 0" axis="0 1 0" range="0 1.2" actuatorfrcrange="-1 1" />
                                   <geom mesh="L_thumb_distal_0" material="black" class="visual" />
@@ -193,14 +193,14 @@
                               </body>
                             </body>
                           </body>
-                          <body name="L_index_proximal" pos="0.026942 0.0095 -0.11498" quat="0.999657 0 -0.026177 0">
+                          <body name="L_index_proximal" pos="0.026942 0.0095 -0.114975" quat="0.999657 0 -0.0261769 0">
                             <inertial pos="0 0.00199817 -0.0131171" quat="0.707089 0.00501356 -0.00501356 0.707089" mass="0.0145411" diaginertia="1.95028e-06 1.95e-06 5.39716e-07" />
                             <joint name="L_index_MCP_joint" pos="0 0 0" axis="-1 0 0" range="0 1.7" actuatorfrcrange="-1 1" />
                             <geom mesh="L_index_proximal_0" material="sliver" class="visual" />
                             <geom mesh="L_index_proximal_1" material="black" class="visual" />
                             <geom mesh="L_index_proximal_0" class="collision" />
                             <geom mesh="L_index_proximal_1" class="collision" />
-                            <body name="L_index_distal" pos="0 -0.0011127 -0.031981">
+                            <body name="L_index_distal" pos="0 -0.00111269 -0.0319806">
                               <inertial pos="0 0.00168954 -0.0153694" quat="0.996466 0.0839918 0 0" mass="0.00905901" diaginertia="1.73e-06 1.72245e-06 2.07554e-07" />
                               <joint name="L_index_DIP_joint" pos="0 0 0" axis="-1 0 0" range="0 1.6" actuatorfrcrange="-1 1" />
                               <geom mesh="L_index_distal_0" material="black" class="visual" />
@@ -216,7 +216,7 @@
                             <geom mesh="L_middle_proximal_1" material="black" class="visual" />
                             <geom mesh="L_middle_proximal_0" class="collision" />
                             <geom mesh="L_middle_proximal_1" class="collision" />
-                            <body name="L_middle_distal" pos="0 -0.0029374 -0.031865">
+                            <body name="L_middle_distal" pos="0 -0.00293735 -0.0318649">
                               <inertial pos="0 -3.933e-05 -0.0154619" quat="0.990386 0.138332 0 0" mass="0.00905901" diaginertia="1.73e-06 1.72396e-06 2.06037e-07" />
                               <joint name="L_middle_DIP_joint" pos="0 0 0" axis="-1 0 0" range="0 1.6" actuatorfrcrange="-1 1" />
                               <geom mesh="L_middle_distal_0" material="black" class="visual" />
@@ -225,14 +225,14 @@
                               <geom mesh="L_middle_distal_1" class="collision" />
                             </body>
                           </body>
-                          <body name="L_ring_proximal" pos="-0.010942 0.0095 -0.11998" quat="0.999657 0 0.026177 0">
+                          <body name="L_ring_proximal" pos="-0.010942 0.0095 -0.119975" quat="0.999657 0 0.0261769 0">
                             <inertial pos="-3.95e-06 0.00199338 -0.0131311" quat="0.707089 0.00501356 -0.00501356 0.707089" mass="0.0145411" diaginertia="1.95028e-06 1.95e-06 5.39716e-07" />
                             <joint name="L_ring_MCP_joint" pos="0 0 0" axis="-1 0 0" range="0 1.7" actuatorfrcrange="-1 1" />
                             <geom mesh="L_ring_proximal_0" material="black" class="visual" />
                             <geom mesh="L_ring_proximal_1" material="sliver" class="visual" />
                             <geom mesh="L_ring_proximal_0" class="collision" />
                             <geom mesh="L_ring_proximal_1" class="collision" />
-                            <body name="L_ring_distal" pos="0 -0.0011127 -0.031981">
+                            <body name="L_ring_distal" pos="0 -0.00111269 -0.0319806">
                               <inertial pos="0 0.00168954 -0.0153694" quat="0.996466 0.0839918 0 0" mass="0.00905901" diaginertia="1.73e-06 1.72245e-06 2.07554e-07" />
                               <joint name="L_ring_DIP_joint" pos="0 0 0" axis="-1 0 0" range="0 1.6" actuatorfrcrange="-1 1" />
                               <geom mesh="L_ring_distal_0" material="black" class="visual" />
@@ -241,14 +241,14 @@
                               <geom mesh="L_ring_distal_1" class="collision" />
                             </body>
                           </body>
-                          <body name="L_pinky_proximal" pos="-0.030194 0.0045 -0.11287" quat="0.998135 0 0.061047 0">
+                          <body name="L_pinky_proximal" pos="-0.0301936 0.0045 -0.112866" quat="0.998135 0 0.0610485 0">
                             <inertial pos="0 0.00191043 -0.0132257" quat="0.707089 0.00501356 -0.00501356 0.707089" mass="0.013131" diaginertia="1.94028e-06 1.94e-06 5.29716e-07" />
                             <joint name="L_pinky_MCP_joint" pos="0 0 0" axis="-1 0 0" range="0 1.7" actuatorfrcrange="-1 1" />
                             <geom mesh="L_pinky_proximal_0" material="sliver" class="visual" />
                             <geom mesh="L_pinky_proximal_1" material="black" class="visual" />
                             <geom mesh="L_pinky_proximal_0" class="collision" />
                             <geom mesh="L_pinky_proximal_1" class="collision" />
-                            <body name="L_pinky_distal" pos="0 -0.0011127 -0.031981">
+                            <body name="L_pinky_distal" pos="0 -0.00111269 -0.0319806">
                               <inertial pos="1.99e-06 0.00260409 -0.0109991" quat="0.997444 0.0714519 0 0" mass="0.00693901" diaginertia="8.6e-07 8.54401e-07 1.45599e-07" />
                               <joint name="L_pinky_DIP_joint" pos="0 0 0" axis="-1 0 0" range="0 1.6" actuatorfrcrange="-1 1" />
                               <geom mesh="L_pinky_distal_0" material="sliver" class="visual" />
@@ -264,34 +264,34 @@
                 </body>
               </body>
             </body>
-            <body name="shoulderPitchRight" pos="0 -0.16049 0.25755" quat="0.984807 -0.17365 0 0">
-              <inertial pos="-0.00066946 -0.0263972 0" quat="0.0066135 0.707076 -0.0066135 0.707076" mass="0.216536" diaginertia="0.0003696 0.000307242 0.000186398" />
+            <body name="shoulderPitchRight" pos="0 -0.165094 0.25923" quat="0.984808 -0.173648 0 0">
+              <inertial pos="0.00536737 -0.0269397 0.00010693" quat="-0.0515608 0.702788 0.055363 0.707365" mass="0.216487" diaginertia="0.000381339 0.000323121 0.00018756" />
               <joint name="shoulderPitch_Right" pos="0 0 0" axis="0 1 0" range="-3.613 2.042" actuatorfrcrange="-65 65" />
               <geom material="sliver" mesh="shoulderPitchRight" class="visual" />
               <geom mesh="shoulderPitchRight" class="collision" />
-              <body name="shoulderRollRight" pos="0.0335 -0.0435 0" quat="0.984807 0.17365 0 0">
-                <inertial pos="-0.0332825 -0.00733504 -0.00951107" quat="0.361979 0.127179 -0.307436 0.870793" mass="0.745069" diaginertia="0.000813679 0.000786398 0.000371932" />
+              <body name="shoulderRollRight" pos="0.0362 -0.0435 0" quat="0.984808 0.173648 0 0">
+                <inertial pos="-0.0342995 -0.00987424 -0.0157184" quat="0.928314 0.252353 -0.0795949 0.26118" mass="1.08875" diaginertia="0.00170392 0.001678 0.000675842" />
                 <joint name="shoulderRoll_Right" pos="0 0 0" axis="1 0 0" range="-2.793 0.628" actuatorfrcrange="-65 65" />
                 <geom mesh="shoulderRollRight_0" material="black" class="visual" />
                 <geom mesh="shoulderRollRight_1" material="sliver" class="visual" />
                 <geom mesh="shoulderRollRight_0" class="collision" />
                 <geom mesh="shoulderRollRight_1" class="collision" />
-                <body name="shoulderYawRight" pos="-0.0335 -0.034 -0.0585">
-                  <inertial pos="-0.00062061 0.00064886 -0.0811784" quat="0.999908 -0.0103237 -0.00811901 -0.00333571" mass="0.765306" diaginertia="0.00351104 0.00340126 0.000461643" />
+                <body name="shoulderYawRight" pos="-0.0362 -0.034 -0.0797">
+                  <inertial pos="-0.00051403 0.00046316 -0.0619299" quat="0.999913 -0.00947141 -0.00876739 -0.00265779" mass="0.901393" diaginertia="0.0032861 0.00317291 0.000574074" />
                   <joint name="shoulderYaw_Right" pos="0 0 0" axis="0 0 1" range="-2.583 2.583" actuatorfrcrange="-65 65" />
                   <geom mesh="shoulderYawRight_0" material="black" class="visual" />
                   <geom mesh="shoulderYawRight_1" material="sliver" class="visual" />
                   <geom mesh="shoulderYawRight_0" class="collision" />
                   <geom mesh="shoulderYawRight_1" class="collision" />
-                  <body name="elbowRight" pos="0 0.0285 -0.20415">
-                    <inertial pos="-0.0136858 -0.0291425 -0.0235137" quat="0.415844 -0.232443 -0.101494 0.873352" mass="0.877615" diaginertia="0.00100372 0.000975597 0.000422847" />
+                  <body name="elbowRight" pos="0 0.0285 -0.18295">
+                    <inertial pos="-0.0140891 -0.0292958 -0.0253475" quat="0.405211 -0.22003 -0.0882783 0.882948" mass="0.917707" diaginertia="0.00112054 0.00108207 0.000458081" />
                     <joint name="elbow_Right" pos="0 0 0" axis="0 1 0" range="-2.496 0.209" actuatorfrcrange="-30 30" />
                     <geom mesh="elbowRight_0" material="sliver" class="visual" />
                     <geom mesh="elbowRight_1" material="black" class="visual" />
                     <geom mesh="elbowRight_0" class="collision" />
                     <geom mesh="elbowRight_1" class="collision" />
                     <body name="wristYawRight" pos="-0.025 -0.0285 -0.0729">
-                      <inertial pos="-0.00202981 -0.00013146 -0.0921689" quat="0.999613 0.00676608 -0.00779174 0.0258466" mass="0.955878" diaginertia="0.00256155 0.0025005 0.000549744" />
+                      <inertial pos="-0.00173086 -0.00013146 -0.0921689" quat="0.999586 0.00431062 -0.00814756 0.0272448" mass="0.955878" diaginertia="0.00254074 0.00248448 0.000525569" />
                       <joint name="wristYaw_Right" pos="0 0 0" axis="0 0 1" range="-2.67 2.67" actuatorfrcrange="-6.4 6.4" />
                       <geom mesh="wristYawRight_0" material="sliver" class="visual" />
                       <geom mesh="wristYawRight_1" material="black" class="visual" />
@@ -314,19 +314,19 @@
                             <joint name="R_thumb_MCP_joint1" pos="0 0 0" axis="0 0 1" range="0 1.1" actuatorfrcrange="-1 1" />
                             <geom material="sliver" mesh="R_thumb_proximal_base" class="visual" />
                             <geom mesh="R_thumb_proximal_base" class="collision" />
-                            <body name="R_thumb_proximal" pos="0.011954 0.0010497 0" quat="0.999041 0 0 0.0437785">
+                            <body name="R_thumb_proximal" pos="0.011954 0.00104968 0" quat="0.999041 0 0 0.0437786">
                               <inertial pos="0.0236968 0 -0.0146723" quat="0.655148 0.266048 0.266048 0.655148" mass="0.0615843" diaginertia="2.013e-05 1.73022e-05 5.79777e-06" />
                               <joint name="R_thumb_MCP_joint2" pos="0 0 0" axis="0 1 0" range="0 0.5" actuatorfrcrange="-1 1" />
                               <geom mesh="R_thumb_proximal_0" material="black" class="visual" />
                               <geom mesh="R_thumb_proximal_1" material="sliver" class="visual" />
                               <geom mesh="R_thumb_proximal_0" class="collision" />
                               <geom mesh="R_thumb_proximal_1" class="collision" />
-                              <body name="R_thumb_intermediate" pos="0.044289 0 -0.037663">
+                              <body name="R_thumb_intermediate" pos="0.0442886 0 -0.0376633">
                                 <inertial pos="0.00973134 0 -0.00266467" quat="0.681637 0.188072 0.188072 0.681637" mass="0.0153834" diaginertia="1.72e-06 1.65294e-06 7.67055e-07" />
                                 <joint name="R_thumb_PIP_joint" pos="0 0 0" axis="0 1 0" range="0 1" actuatorfrcrange="-1 1" />
                                 <geom material="sliver" mesh="R_thumb_intermediate" class="visual" />
                                 <geom mesh="R_thumb_intermediate" class="collision" />
-                                <body name="R_thumb_distal" pos="0.016468 0 -0.015461">
+                                <body name="R_thumb_distal" pos="0.0164679 0 -0.0154615">
                                   <inertial pos="0.00714151 1.39e-06 -0.00689413" quat="0.967006 0 0.254755 0" mass="0.0104374" diaginertia="8.73238e-07 8.6e-07 4.06762e-07" />
                                   <joint name="R_thumb_DIP_joint" pos="0 0 0" axis="0 1 0" range="0 1.2" actuatorfrcrange="-1 1" />
                                   <geom mesh="R_thumb_distal_0" material="sliver" class="visual" />
@@ -337,7 +337,7 @@
                               </body>
                             </body>
                           </body>
-                          <body name="R_index_proximal" pos="0.026942 -0.0095 -0.11498" quat="0.999657 0 -0.026177 0">
+                          <body name="R_index_proximal" pos="0.026942 -0.0095 -0.114975" quat="0.999657 0 -0.0261769 0">
                             <inertial pos="0 -0.0019982 -0.0131171" quat="0.707089 -0.00501356 0.00501356 0.707089" mass="0.0145412" diaginertia="1.95028e-06 1.95e-06 5.39716e-07" />
                             <joint name="R_index_MCP_joint" pos="0 0 0" axis="1 0 0" range="0 1.7" actuatorfrcrange="-1 1" />
                             <geom mesh="R_index_proximal_0" material="black" class="visual" />
@@ -360,7 +360,7 @@
                             <geom mesh="R_middle_proximal_1" material="sliver" class="visual" />
                             <geom mesh="R_middle_proximal_0" class="collision" />
                             <geom mesh="R_middle_proximal_1" class="collision" />
-                            <body name="R_middle_distal" pos="0 0.0029374 -0.031865">
+                            <body name="R_middle_distal" pos="0 0.00293735 -0.0318649">
                               <inertial pos="0 3.955e-05 -0.0154622" quat="0.990386 -0.138332 0 0" mass="0.00905901" diaginertia="1.73e-06 1.72396e-06 2.06037e-07" />
                               <joint name="R_middle_DIP_joint" pos="0 0 0" axis="1 0 0" range="0 1.6" actuatorfrcrange="-1 1" />
                               <geom mesh="R_middle_distal_0" material="black" class="visual" />
@@ -369,14 +369,14 @@
                               <geom mesh="R_middle_distal_1" class="collision" />
                             </body>
                           </body>
-                          <body name="R_ring_proximal" pos="-0.010942 -0.0095 -0.11998" quat="0.999657 0 0.026177 0">
+                          <body name="R_ring_proximal" pos="-0.010942 -0.0095 -0.119975" quat="0.999657 0 0.0261769 0">
                             <inertial pos="0 -0.0019982 -0.0131171" quat="0.707089 -0.00501356 0.00501356 0.707089" mass="0.0145412" diaginertia="1.95028e-06 1.95e-06 5.39716e-07" />
                             <joint name="R_ring_MCP_joint" pos="0 0 0" axis="1 0 0" range="0 1.7" actuatorfrcrange="-1 1" />
                             <geom mesh="R_ring_proximal_0" material="sliver" class="visual" />
                             <geom mesh="R_ring_proximal_1" material="black" class="visual" />
                             <geom mesh="R_ring_proximal_0" class="collision" />
                             <geom mesh="R_ring_proximal_1" class="collision" />
-                            <body name="R_ring_distal" pos="0 0.0011127 -0.031981">
+                            <body name="R_ring_distal" pos="0 0.00111269 -0.0319806">
                               <inertial pos="0 -0.00168936 -0.0153697" quat="0.996466 -0.0839918 0 0" mass="0.00905901" diaginertia="1.73e-06 1.72245e-06 2.07554e-07" />
                               <joint name="R_ring_DIP_joint" pos="0 0 0" axis="1 0 0" range="0 1.6" actuatorfrcrange="-1 1" />
                               <geom mesh="R_ring_distal_0" material="black" class="visual" />
@@ -385,14 +385,14 @@
                               <geom mesh="R_ring_distal_1" class="collision" />
                             </body>
                           </body>
-                          <body name="R_pinky_proximal" pos="-0.030194 -0.0045 -0.11287" quat="0.998135 0 0.061047 0">
+                          <body name="R_pinky_proximal" pos="-0.0301936 -0.0045 -0.112866" quat="0.998135 0 0.0610485 0">
                             <inertial pos="0 -0.00191046 -0.0132258" quat="0.707089 -0.00501356 0.00501356 0.707089" mass="0.0131311" diaginertia="1.94028e-06 1.94e-06 5.29716e-07" />
                             <joint name="R_pinky_MCP_joint" pos="0 0 0" axis="1 0 0" range="0 1.7" actuatorfrcrange="-1 1" />
                             <geom mesh="R_pinky_proximal_0" material="black" class="visual" />
                             <geom mesh="R_pinky_proximal_1" material="sliver" class="visual" />
                             <geom mesh="R_pinky_proximal_0" class="collision" />
                             <geom mesh="R_pinky_proximal_1" class="collision" />
-                            <body name="R_pinky_distal" pos="0 0.0011127 -0.031981">
+                            <body name="R_pinky_distal" pos="0 0.00111269 -0.0319806">
                               <inertial pos="2.01e-06 -0.00260417 -0.0109989" quat="0.997444 -0.0714519 0 0" mass="0.00693901" diaginertia="8.6e-07 8.54401e-07 1.45599e-07" />
                               <joint name="R_pinky_DIP_joint" pos="0 0 0" axis="1 0 0" range="0 1.6" actuatorfrcrange="-1 1" />
                               <geom mesh="R_pinky_distal_0" material="black" class="visual" />
@@ -409,12 +409,12 @@
               </body>
             </body>
             <body name="neckYaw_link" pos="-0.013 0 0.29855">
-              <inertial pos="0.0229166 -0.00099716 0.100187" quat="0.528239 -0.102157 -0.0585684 0.840891" mass="0.412424" diaginertia="0.00129645 0.00128003 0.00012854" />
+              <inertial pos="0.0228442 -0.00120876 0.0992634" quat="0.495063 -0.105336 -0.0540824 0.860751" mass="0.399168" diaginertia="0.00132695 0.00131013 0.000128728" />
               <joint name="neckYaw" pos="0 0 0" axis="0 0 1" range="-1.571 1.571" actuatorfrcrange="-6.4 6.4" />
               <geom material="black" mesh="neckYaw" class="visual" />
               <geom mesh="neckYaw" class="collision" />
-              <body name="neckPitch" pos="0.0316 0.02 0.14595">
-                <inertial pos="0.0179036 -0.0204662 0.0459628" quat="-0.0121246 0.522948 -0.00798363 0.852241" mass="0.997409" diaginertia="0.00377643 0.00354675 0.00235768" />
+              <body name="neckPitch_link" pos="0.0316 0.01995 0.14595">
+                <inertial pos="0.0174597 -0.0210407 0.0470534" quat="0.0247474 0.519975 0.0323442 0.85321" mass="0.956204" diaginertia="0.00368918 0.00348892 0.00231144" />
                 <joint name="neckPitch" pos="0 0 0" axis="0 1 0" range="-0.873 0.873" actuatorfrcrange="-6.4 6.4" />
                 <geom material="black" mesh="neckPitch" class="visual" />
                 <geom mesh="neckPitch" class="collision" />
@@ -601,4 +601,11 @@
     <jointactuatorfrc name="force_neckYaw" joint="neckYaw" />
     <jointactuatorfrc name="force_neckPitch" joint="neckPitch" />
   </sensor>
+
+  <contact>
+    <exclude body1="wristYawLeft" body2="wristRollLeft"/>
+    <exclude body1="wristRollLeft" body2="L_thumb_proximal"/>
+    <exclude body1="wristYawRight" body2="wristRollRight"/>
+    <exclude body1="wristRollRight" body2="R_thumb_proximal"/>
+  </contact>
 </mujoco>

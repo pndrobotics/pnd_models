@@ -4,12 +4,12 @@
     <inertial>
       <origin xyz="9.0363503544396E-05 -3.16722893624041E-05 -0.722724623743624" rpy="0 0 0" />
       <mass value="16.1204633267776" />
-      <inertia ixx="0.582930853390889" ixy="8.29673282362914E-06" ixz="-0.000193074913370059" iyy="0.351926408749018" iyz="4.4035399598838E-06" izz="0.720002300370631" />
+      <inertia ixx="0.582930853390889" ixy="-8.29673282362914e-06" ixz="0.000193074913370059" iyy="0.351926408749018" iyz="-4.4035399598838e-06" izz="0.720002300370631" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/lifting_Columns.dae" />
+        <mesh filename="meshes_stl_0.25/lifting_Columns.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -26,12 +26,12 @@
     <inertial>
       <origin xyz="0.00093826 0.00093832 0.03999995" rpy="0 0 0" />
       <mass value="2.36268465" />
-      <inertia ixx="0.00543041" ixy="-0.00000171" ixz="-0.00006791" iyy="0.00543044" iyz="0.00006793" izz="0.00184993" />
+      <inertia ixx="0.00543041" ixy="1.71e-06" ixz="6.791e-05" iyy="0.00543044" iyz="-6.793e-05" izz="0.00184993" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/waistRoll.dae" />
+        <mesh filename="meshes_stl_0.25/waistRoll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -55,12 +55,12 @@
     <inertial>
       <origin xyz="-0.00008401 0.00189362 0.02548321" rpy="0 0 0" />
       <mass value="0.56353777" />
-      <inertia ixx="0.00151470" ixy="0.00001037" ixz="0.00000444" iyy="0.00067279" iyz="-0.00001192" izz="0.00155907" />
+      <inertia ixx="0.00151470" ixy="-1.037e-05" ixz="-4.44e-06" iyy="0.00067279" iyz="1.192e-05" izz="0.00155907" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/waistPitch.dae" />
+        <mesh filename="meshes_stl_0.25/waistPitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -84,12 +84,12 @@
     <inertial>
       <origin xyz="-0.00183601 0.00056583 0.16662357" rpy="0 0 0" />
       <mass value="12.73336771" />
-      <inertia ixx="0.13004345" ixy="-0.00034645" ixz="-0.00370676" iyy="0.08594116" iyz="0.00002055" izz="0.07392623" />
+      <inertia ixx="0.13004345" ixy="0.00034645" ixz="0.00370676" iyy="0.08594116" iyz="-2.055e-05" izz="0.07392623" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/torso.dae" />
+        <mesh filename="meshes_stl_0.25/torso.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -113,12 +113,12 @@
     <inertial>
       <origin xyz="0.00542694 0.02689874 0.00010792" rpy="0 0 0" />
       <mass value="0.21614811" />
-      <inertia ixx="0.00019044" ixy="0.00002059" ixz="-0.00000121" iyy="0.00031955" iyz="-0.00000016" izz="0.00038064" />
+      <inertia ixx="0.00019044" ixy="-2.059e-05" ixz="1.21e-06" iyy="0.00031955" iyz="1.6e-07" izz="0.00038064" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/shoulderPitchLeft.dae" />
+        <mesh filename="meshes_stl_0.25/shoulderPitchLeft.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -142,12 +142,12 @@
     <inertial>
       <origin xyz="-0.03437328 0.00962154 -0.01544556" rpy="0 0 0" />
       <mass value="1.07881773" />
-      <inertia ixx="0.00167078" ixy="-0.00000554" ixz="0.00001969" iyy="0.00140477" iyz="-0.00043555" izz="0.00092612" />
+      <inertia ixx="0.00167078" ixy="5.54e-06" ixz="-1.969e-05" iyy="0.00140477" iyz="0.00043555" izz="0.00092612" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/shoulderRollLeft.dae" />
+        <mesh filename="meshes_stl_0.25/shoulderRollLeft.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -171,12 +171,12 @@
     <inertial>
       <origin xyz="-0.00051421 -0.00044442 -0.06193283" rpy="0 0 0" />
       <mass value="0.90142027" />
-      <inertia ixx="0.00328558" ixy="0.00000020" ixz="0.00004743" iyy="0.00317226" iyz="0.00004945" izz="0.00057589" />
+      <inertia ixx="0.00328558" ixy="-2e-07" ixz="-4.743e-05" iyy="0.00317226" iyz="-4.945e-05" izz="0.00057589" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/shoulderYawLeft.dae" />
+        <mesh filename="meshes_stl_0.25/shoulderYawLeft.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -200,12 +200,12 @@
     <inertial>
       <origin xyz="-0.01407267 0.02929713 -0.02534726" rpy="0 0 0" />
       <mass value="0.91770702" />
-      <inertia ixx="0.00096270" ixy="0.00001056" ixz="0.00026207" iyy="0.00110409" iyz="0.00002163" izz="0.00059478" />
+      <inertia ixx="0.00096270" ixy="-1.056e-05" ixz="-0.00026207" iyy="0.00110409" iyz="-2.163e-05" izz="0.00059478" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/elbowLeft.dae" />
+        <mesh filename="meshes_stl_0.25/elbowLeft.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -229,12 +229,12 @@
     <inertial>
       <origin xyz="-0.00174399 0.00010590 -0.09216058" rpy="0 0 0" />
       <mass value="0.95587869" />
-      <inertia ixx="0.00253956" ixy="-0.00000271" ixz="0.00003240" iyy="0.00248451" iyz="-0.00001711" izz="0.00052672" />
+      <inertia ixx="0.00253956" ixy="2.71e-06" ixz="-3.24e-05" iyy="0.00248451" iyz="1.711e-05" izz="0.00052672" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/wristYawLeft.dae" />
+        <mesh filename="meshes_stl_0.25/wristYawLeft.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -258,12 +258,12 @@
     <inertial>
       <origin xyz="-0.00017582 0.00166098 -0.00002773" rpy="0 0 0" />
       <mass value="0.11963454" />
-      <inertia ixx="0.00003359" ixy="0.00000002" ixz="0.00000000" iyy="0.00002690" iyz="-0.00000005" izz="0.00003977" />
+      <inertia ixx="0.00003359" ixy="-2e-08" ixz="-0.0" iyy="0.00002690" iyz="5e-08" izz="0.00003977" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/wristPitchLeft.dae" />
+        <mesh filename="meshes_stl_0.25/wristPitchLeft.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -287,12 +287,12 @@
     <inertial>
       <origin xyz="-0.00027229 0.00864497 -0.06627017" rpy="0 0 0" />
       <mass value="0.35749661" />
-      <inertia ixx="0.00032014" ixy="0.00001166" ixz="-0.00000403" iyy="0.00042954" iyz="-0.00002167" izz="0.00018487" />
+      <inertia ixx="0.00032014" ixy="-1.166e-05" ixz="4.03e-06" iyy="0.00042954" iyz="2.167e-05" izz="0.00018487" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/wristRollLeft.dae" />
+        <mesh filename="meshes_stl_0.25/wristRollLeft.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -310,12 +310,12 @@
     <inertial>
       <origin xyz="0.00431634 0.00026726 -0.00141885" rpy="0 0 0" />
       <mass value="0.00893190" />
-      <inertia ixx="0.00000031" ixy="-0.00000008" ixz="-0.00000006" iyy="0.00000055" iyz="0.00000001" izz="0.00000046" />
+      <inertia ixx="0.00000031" ixy="8e-08" ixz="6e-08" iyy="0.00000055" iyz="-1e-08" izz="0.00000046" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_thumb_proximal_base.dae" />
+        <mesh filename="meshes_stl_0.25/L_thumb_proximal_base.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -339,12 +339,12 @@
     <inertial>
       <origin xyz="0.02369693 0.00000000 -0.01467236" rpy="0 0 0" />
       <mass value="0.06158427" />
-      <inertia ixx="0.00001171" ixy="0.00000000" ixz="-0.00000575" iyy="0.00002013" iyz="0.00000000" izz="0.00001139" />
+      <inertia ixx="0.00001171" ixy="-0.0" ixz="5.75e-06" iyy="0.00002013" iyz="-0.0" izz="0.00001139" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_thumb_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/L_thumb_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -368,12 +368,12 @@
     <inertial>
       <origin xyz="0.00973134 0.00000000 -0.00266466" rpy="0 0 0" />
       <mass value="0.01538337" />
-      <inertia ixx="0.00000142" ixy="0.00000000" ixz="-0.00000039" iyy="0.00000172" iyz="0.00000000" izz="0.00000100" />
+      <inertia ixx="0.00000142" ixy="-0.0" ixz="3.9e-07" iyy="0.00000172" iyz="-0.0" izz="0.00000100" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_thumb_intermediate.dae" />
+        <mesh filename="meshes_stl_0.25/L_thumb_intermediate.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -391,12 +391,12 @@
     <inertial>
       <origin xyz="0.00714221 -0.00000154 -0.00689404" rpy="0 0 0" />
       <mass value="0.01043740" />
-      <inertia ixx="0.00000076" ixy="0.00000000" ixz="-0.00000020" iyy="0.00000086" iyz="0.00000000" izz="0.00000052" />
+      <inertia ixx="0.00000076" ixy="-0.0" ixz="2e-07" iyy="0.00000086" iyz="-0.0" izz="0.00000052" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_thumb_distal.dae" />
+        <mesh filename="meshes_stl_0.25/L_thumb_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -420,12 +420,12 @@
     <inertial>
       <origin xyz="0.00000000 0.00199817 -0.01311708" rpy="0 0 0" />
       <mass value="0.01454111" />
-      <inertia ixx="0.00000195" ixy="0.00000000" ixz="0.00000000" iyy="0.00000195" iyz="0.00000002" izz="0.00000054" />
+      <inertia ixx="0.00000195" ixy="-0.0" ixz="-0.0" iyy="0.00000195" iyz="-2e-08" izz="0.00000054" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_index_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/L_index_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -449,12 +449,12 @@
     <inertial>
       <origin xyz="0.00000000 0.00168954 -0.01536935" rpy="0 0 0" />
       <mass value="0.00905901" />
-      <inertia ixx="0.00000173" ixy="0.00000000" ixz="0.00000000" iyy="0.00000168" iyz="0.00000025" izz="0.00000025" />
+      <inertia ixx="0.00000173" ixy="-0.0" ixz="-0.0" iyy="0.00000168" iyz="-2.5e-07" izz="0.00000025" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_index_distal.dae" />
+        <mesh filename="meshes_stl_0.25/L_index_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -478,12 +478,12 @@
     <inertial>
       <origin xyz="0.00000000 0.00115546 -0.01334192" rpy="0 0 0" />
       <mass value="0.01313099" />
-      <inertia ixx="0.00000194" ixy="0.00000000" ixz="0.00000000" iyy="0.00000193" iyz="0.00000010" izz="0.00000054" />
+      <inertia ixx="0.00000194" ixy="-0.0" ixz="-0.0" iyy="0.00000193" iyz="-1e-07" izz="0.00000054" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_middle_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/L_middle_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -507,12 +507,12 @@
     <inertial>
       <origin xyz="0.00000000 -0.00003933 -0.01546189" rpy="0 0 0" />
       <mass value="0.00905901" />
-      <inertia ixx="0.00000173" ixy="0.00000000" ixz="0.00000000" iyy="0.00000161" iyz="0.00000040" izz="0.00000032" />
+      <inertia ixx="0.00000173" ixy="-0.0" ixz="-0.0" iyy="0.00000161" iyz="-4e-07" izz="0.00000032" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_middle_distal.dae" />
+        <mesh filename="meshes_stl_0.25/L_middle_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -536,12 +536,12 @@
     <inertial>
       <origin xyz="-0.00000395 0.00199338 -0.01313108" rpy="0 0 0" />
       <mass value="0.01454111" />
-      <inertia ixx="0.00000195" ixy="0.00000000" ixz="0.00000000" iyy="0.00000195" iyz="0.00000002" izz="0.00000054" />
+      <inertia ixx="0.00000195" ixy="-0.0" ixz="-0.0" iyy="0.00000195" iyz="-2e-08" izz="0.00000054" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_ring_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/L_ring_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -565,12 +565,12 @@
     <inertial>
       <origin xyz="0.00000000 0.00168954 -0.01536935" rpy="0 0 0" />
       <mass value="0.00905901" />
-      <inertia ixx="0.00000173" ixy="0.00000000" ixz="0.00000000" iyy="0.00000168" iyz="0.00000025" izz="0.00000025" />
+      <inertia ixx="0.00000173" ixy="-0.0" ixz="-0.0" iyy="0.00000168" iyz="-2.5e-07" izz="0.00000025" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_ring_distal.dae" />
+        <mesh filename="meshes_stl_0.25/L_ring_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -594,12 +594,12 @@
     <inertial>
       <origin xyz="0.00000000 0.00191043 -0.01322575" rpy="0 0 0" />
       <mass value="0.01313099" />
-      <inertia ixx="0.00000194" ixy="0.00000000" ixz="0.00000000" iyy="0.00000194" iyz="0.00000002" izz="0.00000053" />
+      <inertia ixx="0.00000194" ixy="-0.0" ixz="-0.0" iyy="0.00000194" iyz="-2e-08" izz="0.00000053" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_pinky_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/L_pinky_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -623,12 +623,12 @@
     <inertial>
       <origin xyz="0.00000199 0.00260409 -0.01099907" rpy="0 0 0" />
       <mass value="0.00693901" />
-      <inertia ixx="0.00000086" ixy="0.00000000" ixz="0.00000000" iyy="0.00000084" iyz="0.00000010" izz="0.00000016" />
+      <inertia ixx="0.00000086" ixy="-0.0" ixz="-0.0" iyy="0.00000084" iyz="-1e-07" izz="0.00000016" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/L_pinky_distal.dae" />
+        <mesh filename="meshes_stl_0.25/L_pinky_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -652,12 +652,12 @@
     <inertial>
       <origin xyz="0.00536737 -0.02693968 0.00010693" rpy="0 0 0" />
       <mass value="0.21648747" />
-      <inertia ixx="0.00019065" ixy="-0.00002021" ixz="-0.00000121" iyy="0.00032004" iyz="0.00000016" izz="0.00038133" />
+      <inertia ixx="0.00019065" ixy="2.021e-05" ixz="1.21e-06" iyy="0.00032004" iyz="-1.6e-07" izz="0.00038133" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/shoulderPitchRight.dae" />
+        <mesh filename="meshes_stl_0.25/shoulderPitchRight.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -681,12 +681,12 @@
     <inertial>
       <origin xyz="-0.03429950 -0.00987424 -0.01571839" rpy="0 0 0" />
       <mass value="1.08875448" />
-      <inertia ixx="0.00169651" ixy="0.00000165" ixz="0.00001992" iyy="0.00142236" iyz="0.00044284" izz="0.00093889" />
+      <inertia ixx="0.00169651" ixy="-1.65e-06" ixz="-1.992e-05" iyy="0.00142236" iyz="-0.00044284" izz="0.00093889" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/shoulderRollRight.dae" />
+        <mesh filename="meshes_stl_0.25/shoulderRollRight.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -710,12 +710,12 @@
     <inertial>
       <origin xyz="-0.00051403 0.00046316 -0.06192990" rpy="0 0 0" />
       <mass value="0.90139273" />
-      <inertia ixx="0.00328527" ixy="0.00000028" ixz="0.00004741" iyy="0.00317198" iyz="-0.00004934" izz="0.00057584" />
+      <inertia ixx="0.00328527" ixy="-2.8e-07" ixz="-4.741e-05" iyy="0.00317198" iyz="4.934e-05" izz="0.00057584" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/shoulderYawRight.dae" />
+        <mesh filename="meshes_stl_0.25/shoulderYawRight.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -739,12 +739,12 @@
     <inertial>
       <origin xyz="-0.01408915 -0.02929583 -0.02534755" rpy="0 0 0" />
       <mass value="0.91770702" />
-      <inertia ixx="0.00096269" ixy="-0.00001024" ixz="0.00026183" iyy="0.00110365" iyz="-0.00002162" izz="0.00059435" />
+      <inertia ixx="0.00096269" ixy="1.024e-05" ixz="-0.00026183" iyy="0.00110365" iyz="2.162e-05" izz="0.00059435" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/elbowRight.dae" />
+        <mesh filename="meshes_stl_0.25/elbowRight.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -768,12 +768,12 @@
     <inertial>
       <origin xyz="-0.00173086 -0.00013146 -0.09216894" rpy="0 0 0" />
       <mass value="0.95587832" />
-      <inertia ixx="0.00254005" ixy="0.00000277" ixz="0.00003237" iyy="0.00248449" iyz="0.00001780" izz="0.00052625" />
+      <inertia ixx="0.00254005" ixy="-2.77e-06" ixz="-3.237e-05" iyy="0.00248449" iyz="-1.78e-05" izz="0.00052625" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/wristYawRight.dae" />
+        <mesh filename="meshes_stl_0.25/wristYawRight.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -797,12 +797,12 @@
     <inertial>
       <origin xyz="-0.00017580 0.00166098 -0.00002773" rpy="0 0 0" />
       <mass value="0.11963454" />
-      <inertia ixx="0.00003359" ixy="0.00000002" ixz="0.00000000" iyy="0.00002690" iyz="-0.00000005" izz="0.00003977" />
+      <inertia ixx="0.00003359" ixy="-2e-08" ixz="-0.0" iyy="0.00002690" iyz="5e-08" izz="0.00003977" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/wristPitchRight.dae" />
+        <mesh filename="meshes_stl_0.25/wristPitchRight.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -826,12 +826,12 @@
     <inertial>
       <origin xyz="-0.00030616 -0.00861825 -0.06634429" rpy="0 0 0" />
       <mass value="0.35815530" />
-      <inertia ixx="0.00032078" ixy="-0.00001180" ixz="-0.00000453" iyy="0.00043005" iyz="0.00002137" izz="0.00018497" />
+      <inertia ixx="0.00032078" ixy="1.18e-05" ixz="4.53e-06" iyy="0.00043005" iyz="-2.137e-05" izz="0.00018497" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/wristRollRight.dae" />
+        <mesh filename="meshes_stl_0.25/wristRollRight.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -849,12 +849,12 @@
     <inertial>
       <origin xyz="0.00431634 -0.00026726 -0.00141884" rpy="0 0 0" />
       <mass value="0.00893190" />
-      <inertia ixx="0.00000031" ixy="0.00000008" ixz="-0.00000006" iyy="0.00000055" iyz="-0.00000001" izz="0.00000046" />
+      <inertia ixx="0.00000031" ixy="-8e-08" ixz="6e-08" iyy="0.00000055" iyz="1e-08" izz="0.00000046" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_thumb_proximal_base.dae" />
+        <mesh filename="meshes_stl_0.25/R_thumb_proximal_base.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -878,12 +878,12 @@
     <inertial>
       <origin xyz="0.02369685 0.00000000 -0.01467226" rpy="0 0 0" />
       <mass value="0.06158426" />
-      <inertia ixx="0.00001171" ixy="0.00000000" ixz="-0.00000575" iyy="0.00002013" iyz="0.00000000" izz="0.00001139" />
+      <inertia ixx="0.00001171" ixy="-0.0" ixz="5.75e-06" iyy="0.00002013" iyz="-0.0" izz="0.00001139" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_thumb_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/R_thumb_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -907,12 +907,12 @@
     <inertial>
       <origin xyz="0.00973134 0.00000000 -0.00266467" rpy="0 0 0" />
       <mass value="0.01538338" />
-      <inertia ixx="0.00000142" ixy="0.00000000" ixz="-0.00000039" iyy="0.00000172" iyz="0.00000000" izz="0.00000100" />
+      <inertia ixx="0.00000142" ixy="-0.0" ixz="3.9e-07" iyy="0.00000172" iyz="-0.0" izz="0.00000100" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_thumb_intermediate.dae" />
+        <mesh filename="meshes_stl_0.25/R_thumb_intermediate.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -930,12 +930,12 @@
     <inertial>
       <origin xyz="0.00714151 0.00000139 -0.00689413" rpy="0 0 0" />
       <mass value="0.01043741" />
-      <inertia ixx="0.00000076" ixy="0.00000000" ixz="-0.00000020" iyy="0.00000086" iyz="0.00000000" izz="0.00000052" />
+      <inertia ixx="0.00000076" ixy="-0.0" ixz="2e-07" iyy="0.00000086" iyz="-0.0" izz="0.00000052" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_thumb_distal.dae" />
+        <mesh filename="meshes_stl_0.25/R_thumb_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -959,12 +959,12 @@
     <inertial>
       <origin xyz="0.00000000 -0.00199820 -0.01311710" rpy="0 0 0" />
       <mass value="0.01454119" />
-      <inertia ixx="0.00000195" ixy="0.00000000" ixz="0.00000000" iyy="0.00000195" iyz="-0.00000002" izz="0.00000054" />
+      <inertia ixx="0.00000195" ixy="-0.0" ixz="-0.0" iyy="0.00000195" iyz="2e-08" izz="0.00000054" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_index_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/R_index_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -988,12 +988,12 @@
     <inertial>
       <origin xyz="0.00000000 -0.00168936 -0.01536965" rpy="0 0 0" />
       <mass value="0.00905901" />
-      <inertia ixx="0.00000173" ixy="0.00000000" ixz="0.00000000" iyy="0.00000168" iyz="-0.00000025" izz="0.00000025" />
+      <inertia ixx="0.00000173" ixy="-0.0" ixz="-0.0" iyy="0.00000168" iyz="2.5e-07" izz="0.00000025" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_index_distal.dae" />
+        <mesh filename="meshes_stl_0.25/R_index_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1017,12 +1017,12 @@
     <inertial>
       <origin xyz="0.00000000 -0.00115549 -0.01334194" rpy="0 0 0" />
       <mass value="0.01313107" />
-      <inertia ixx="0.00000194" ixy="0.00000000" ixz="0.00000000" iyy="0.00000193" iyz="-0.00000010" izz="0.00000054" />
+      <inertia ixx="0.00000194" ixy="-0.0" ixz="-0.0" iyy="0.00000193" iyz="1e-07" izz="0.00000054" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_middle_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/R_middle_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1046,12 +1046,12 @@
     <inertial>
       <origin xyz="0.00000000 0.00003955 -0.01546217" rpy="0 0 0" />
       <mass value="0.00905901" />
-      <inertia ixx="0.00000173" ixy="0.00000000" ixz="0.00000000" iyy="0.00000161" iyz="-0.00000040" izz="0.00000032" />
+      <inertia ixx="0.00000173" ixy="-0.0" ixz="-0.0" iyy="0.00000161" iyz="4e-07" izz="0.00000032" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_middle_distal.dae" />
+        <mesh filename="meshes_stl_0.25/R_middle_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1075,12 +1075,12 @@
     <inertial>
       <origin xyz="0.00000000 -0.00199820 -0.01311710" rpy="0 0 0" />
       <mass value="0.01454119" />
-      <inertia ixx="0.00000195" ixy="0.00000000" ixz="0.00000000" iyy="0.00000195" iyz="-0.00000002" izz="0.00000054" />
+      <inertia ixx="0.00000195" ixy="-0.0" ixz="-0.0" iyy="0.00000195" iyz="2e-08" izz="0.00000054" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_ring_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/R_ring_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1104,12 +1104,12 @@
     <inertial>
       <origin xyz="0.00000000 -0.00168936 -0.01536965" rpy="0 0 0" />
       <mass value="0.00905901" />
-      <inertia ixx="0.00000173" ixy="0.00000000" ixz="0.00000000" iyy="0.00000168" iyz="-0.00000025" izz="0.00000025" />
+      <inertia ixx="0.00000173" ixy="-0.0" ixz="-0.0" iyy="0.00000168" iyz="2.5e-07" izz="0.00000025" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_ring_distal.dae" />
+        <mesh filename="meshes_stl_0.25/R_ring_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1133,12 +1133,12 @@
     <inertial>
       <origin xyz="0.00000000 -0.00191046 -0.01322577" rpy="0 0 0" />
       <mass value="0.01313107" />
-      <inertia ixx="0.00000194" ixy="0.00000000" ixz="0.00000000" iyy="0.00000194" iyz="-0.00000002" izz="0.00000053" />
+      <inertia ixx="0.00000194" ixy="-0.0" ixz="-0.0" iyy="0.00000194" iyz="2e-08" izz="0.00000053" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_pinky_proximal.dae" />
+        <mesh filename="meshes_stl_0.25/R_pinky_proximal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1162,12 +1162,12 @@
     <inertial>
       <origin xyz="0.00000201 -0.00260417 -0.01099890" rpy="0 0 0" />
       <mass value="0.00693901" />
-      <inertia ixx="0.00000086" ixy="0.00000000" ixz="0.00000000" iyy="0.00000084" iyz="-0.00000010" izz="0.00000016" />
+      <inertia ixx="0.00000086" ixy="-0.0" ixz="-0.0" iyy="0.00000084" iyz="1e-07" izz="0.00000016" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/R_pinky_distal.dae" />
+        <mesh filename="meshes_stl_0.25/R_pinky_distal.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1191,12 +1191,12 @@
     <inertial>
       <origin xyz="0.02284416 -0.00120876 0.09926336" rpy="0 0 0" />
       <mass value="0.39916798" />
-      <inertia ixx="0.00124895" ixy="-0.00000398" ixz="0.00027076" iyy="0.00132253" iyz="-0.00001471" izz="0.00019433" />
+      <inertia ixx="0.00124895" ixy="3.98e-06" ixz="-0.00027076" iyy="0.00132253" iyz="1.471e-05" izz="0.00019433" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/neckYaw.dae" />
+        <mesh filename="meshes_stl_0.25/neckYaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
@@ -1220,12 +1220,12 @@
     <inertial>
       <origin xyz="0.01745967 -0.02104074 0.04705342" rpy="0 0 0" />
       <mass value="0.95620414" />
-      <inertia ixx="0.00260056" ixy="-0.00003779" ixz="-0.00055973" iyy="0.00348905" iyz="-0.00000240" izz="0.00339993" />
+      <inertia ixx="0.00260056" ixy="3.779e-05" ixz="0.00055973" iyy="0.00348905" iyz="2.4e-06" izz="0.00339993" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes_dae/neckPitch.dae" />
+        <mesh filename="meshes_stl_0.25/neckPitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />

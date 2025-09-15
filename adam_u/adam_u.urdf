@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <robot name="adam_u">
+  <mujoco>
+    <compiler meshdir="meshes_stl_0.25/" balanceinertia="true" discardvisual="false" />
+  </mujoco>
   <link name="lifting_Columns">
     <inertial>
       <origin xyz="9.0363503544396E-05 -3.16722893624041E-05 -0.722724623743624" rpy="0 0 0" />

@@ -1,0 +1,595 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="adam_u_pro_max">
+  <compiler angle="radian" meshdir="meshes_stl_0.25/" />
+  <asset>
+    <mesh name="lifting_Columns" file="lifting_Columns.STL" />
+    <mesh name="waistRoll_link" file="waistRoll_link.STL" />
+    <mesh name="waistPitch_link" file="waistPitch_link.STL" />
+    <mesh name="torso" file="torso.STL" />
+    <mesh name="shoulderPitchLeft" file="shoulderPitchLeft.STL" />
+    <mesh name="shoulderRollLeft" file="shoulderRollLeft.STL" />
+    <mesh name="shoulderYawLeft" file="shoulderYawLeft.STL" />
+    <mesh name="elbowLeft" file="elbowLeft.STL" />
+    <mesh name="wristYawLeft" file="wristYawLeft.STL" />
+    <mesh name="wristPitchLeft" file="wristPitchLeft.STL" />
+    <mesh name="wristRollLeft" file="wristRollLeft.STL" />
+    <mesh name="ir_l_base_link" file="ir_l_base_link.STL" />
+    <mesh name="ir_l_palm_force_sensor" file="ir_l_palm_force_sensor.STL" />
+    <mesh name="ir_l_left_thumb_1" file="ir_l_left_thumb_1.STL" />
+    <mesh name="ir_l_left_thumb_2" file="ir_l_left_thumb_2.STL" />
+    <mesh name="ir_l_thumb_force_sensor_1" file="ir_l_thumb_force_sensor_1.STL" />
+    <mesh name="ir_l_left_thumb_3" file="ir_l_left_thumb_3.STL" />
+    <mesh name="ir_l_thumb_force_sensor_2" file="ir_l_thumb_force_sensor_2.STL" />
+    <mesh name="ir_l_left_thumb_4" file="ir_l_left_thumb_4.STL" />
+    <mesh name="ir_l_thumb_force_sensor_3" file="ir_l_thumb_force_sensor_3.STL" />
+    <mesh name="ir_l_thumb_force_sensor_4" file="ir_l_thumb_force_sensor_4.STL" />
+    <mesh name="ir_l_left_index_1" file="ir_l_left_index_1.STL" />
+    <mesh name="ir_l_index_force_sensor_1" file="ir_l_index_force_sensor_1.STL" />
+    <mesh name="ir_l_left_index_2" file="ir_l_left_index_2.STL" />
+    <mesh name="ir_l_index_force_sensor_2" file="ir_l_index_force_sensor_2.STL" />
+    <mesh name="ir_l_index_force_sensor_3" file="ir_l_index_force_sensor_3.STL" />
+    <mesh name="ir_l_left_middle_1" file="ir_l_left_middle_1.STL" />
+    <mesh name="ir_l_middle_force_sensor_1" file="ir_l_middle_force_sensor_1.STL" />
+    <mesh name="ir_l_left_middle_2" file="ir_l_left_middle_2.STL" />
+    <mesh name="ir_l_middle_force_sensor_2" file="ir_l_middle_force_sensor_2.STL" />
+    <mesh name="ir_l_middle_force_sensor_3" file="ir_l_middle_force_sensor_3.STL" />
+    <mesh name="ir_l_left_ring_1" file="ir_l_left_ring_1.STL" />
+    <mesh name="ir_l_ring_force_sensor_1" file="ir_l_ring_force_sensor_1.STL" />
+    <mesh name="ir_l_left_ring_2" file="ir_l_left_ring_2.STL" />
+    <mesh name="ir_l_ring_force_sensor_2" file="ir_l_ring_force_sensor_2.STL" />
+    <mesh name="ir_l_ring_force_sensor_3" file="ir_l_ring_force_sensor_3.STL" />
+    <mesh name="ir_l_left_little_1" file="ir_l_left_little_1.STL" />
+    <mesh name="ir_l_little_force_sensor_1" file="ir_l_little_force_sensor_1.STL" />
+    <mesh name="ir_l_left_little_2" file="ir_l_left_little_2.STL" />
+    <mesh name="ir_l_little_force_sensor_2" file="ir_l_little_force_sensor_2.STL" />
+    <mesh name="ir_l_little_force_sensor_3" file="ir_l_little_force_sensor_3.STL" />
+    <mesh name="shoulderPitchRight" file="shoulderPitchRight.STL" />
+    <mesh name="shoulderRollRight" file="shoulderRollRight.STL" />
+    <mesh name="shoulderYawRight" file="shoulderYawRight.STL" />
+    <mesh name="elbowRight" file="elbowRight.STL" />
+    <mesh name="wristYawRight" file="wristYawRight.STL" />
+    <mesh name="wristPitchRight" file="wristPitchRight.STL" />
+    <mesh name="wristRollRight" file="wristRollRight.STL" />
+    <mesh name="ir_r_base_link" file="ir_r_base_link.STL" />
+    <mesh name="ir_r_palm_force_sensor" file="ir_r_palm_force_sensor.STL" />
+    <mesh name="ir_r_right_thumb_1" file="ir_r_right_thumb_1.STL" />
+    <mesh name="ir_r_right_thumb_2" file="ir_r_right_thumb_2.STL" />
+    <mesh name="ir_r_right_thumb_3" file="ir_r_right_thumb_3.STL" />
+    <mesh name="ir_r_thumb_force_sensor_2" file="ir_r_thumb_force_sensor_2.STL" />
+    <mesh name="ir_r_right_thumb_4" file="ir_r_right_thumb_4.STL" />
+    <mesh name="ir_r_thumb_force_sensor_3" file="ir_r_thumb_force_sensor_3.STL" />
+    <mesh name="ir_r_thumb_force_sensor_4" file="ir_r_thumb_force_sensor_4.STL" />
+    <mesh name="ir_r_thumb_force_sensor_1" file="ir_r_thumb_force_sensor_1.STL" />
+    <mesh name="ir_r_right_index_1" file="ir_r_right_index_1.STL" />
+    <mesh name="ir_r_right_index_2" file="ir_r_right_index_2.STL" />
+    <mesh name="ir_r_index_force_sensor_2" file="ir_r_index_force_sensor_2.STL" />
+    <mesh name="ir_r_index_force_sensor_3" file="ir_r_index_force_sensor_3.STL" />
+    <mesh name="ir_r_index_force_sensor_1" file="ir_r_index_force_sensor_1.STL" />
+    <mesh name="ir_r_right_middle_1" file="ir_r_right_middle_1.STL" />
+    <mesh name="ir_r_right_middle_2" file="ir_r_right_middle_2.STL" />
+    <mesh name="ir_r_middle_force_sensor_2" file="ir_r_middle_force_sensor_2.STL" />
+    <mesh name="ir_r_middle_force_sensor_3" file="ir_r_middle_force_sensor_3.STL" />
+    <mesh name="ir_r_middle_force_sensor_1" file="ir_r_middle_force_sensor_1.STL" />
+    <mesh name="ir_r_right_ring_1" file="ir_r_right_ring_1.STL" />
+    <mesh name="ir_r_right_ring_2" file="ir_r_right_ring_2.STL" />
+    <mesh name="ir_r_ring_force_sensor_2" file="ir_r_ring_force_sensor_2.STL" />
+    <mesh name="ir_r_ring_force_sensor_3" file="ir_r_ring_force_sensor_3.STL" />
+    <mesh name="ir_r_ring_force_sensor_1" file="ir_r_ring_force_sensor_1.STL" />
+    <mesh name="ir_r_right_little_1" file="ir_r_right_little_1.STL" />
+    <mesh name="ir_r_right_little_2" file="ir_r_right_little_2.STL" />
+    <mesh name="ir_r_little_force_sensor_2" file="ir_r_little_force_sensor_2.STL" />
+    <mesh name="ir_r_little_force_sensor_3" file="ir_r_little_force_sensor_3.STL" />
+    <mesh name="ir_r_little_force_sensor_1" file="ir_r_little_force_sensor_1.STL" />
+    <mesh name="neckYaw_link" file="neckYaw_link.STL" />
+    <mesh name="neckPitch_link" file="neckPitch_link.STL" />
+  </asset>
+  <worldbody>
+    <body name="lifting_Columns" pos="0 0 1.05">
+      <inertial pos="9.03635e-05 -3.16723e-05 -0.722725" quat="0.500358 0.500346 -0.49966 0.499636" mass="16.1205" diaginertia="0.720003 0.582931 0.351926" />
+      <joint name="floating_base" type="free" />
+      <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="lifting_Columns" />
+      <geom type="mesh" rgba="1 1 1 1" mesh="lifting_Columns" />
+      <body name="waistRoll_link" pos="0 0 0.0767">
+        <inertial pos="0.00093826 0.00093832 0.0399999" quat="0.920274 -0.012433 -0.0050157 0.391045" mass="2.36268" diaginertia="0.00543214 0.00543129 0.00184735" />
+        <joint name="waistRoll" pos="0 0 0" axis="1 0 0" range="-0.279 0.279" actuatorfrcrange="-110 110" />
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="waistRoll_link" />
+        <body name="waistPitch_link" pos="0 0 0.08">
+          <inertial pos="-8.401e-05 0.00189362 0.0254832" quat="0.480284 0.467519 -0.524152 0.525374" mass="0.563538" diaginertia="0.0015597 0.00151436 0.000672504" />
+          <joint name="waistPitch" pos="0 0 0" axis="0 1 0" range="-0.663 1.361" actuatorfrcrange="-110 110" />
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="waistPitch_link" />
+          <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="waistPitch_link" />
+          <body name="torso" pos="0 0.0005 0.053">
+            <inertial pos="-0.00183601 0.00056583 0.166624" quat="0.999452 -0.00189053 -0.0328345 0.00382224" mass="12.7334" diaginertia="0.13029 0.0859386 0.0736823" />
+            <joint name="waistYaw" pos="0 0 0" axis="0 0 1" range="-0.829 0.829" actuatorfrcrange="-110 110" />
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="torso" />
+            <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="torso" />
+            <body name="shoulderPitchLeft" pos="0 0.165094 0.25923" quat="0.984808 0.173648 0 0">
+              <inertial pos="0.00542694 0.0268987 0.00010792" quat="-0.0545235 0.707235 0.0545271 0.702761" mass="0.216148" diaginertia="0.000380648 0.000322754 0.000187228" />
+              <joint name="shoulderPitch_Left" pos="0 0 0" axis="0 1 0" range="-3.613 2.042" actuatorfrcrange="-65 65" />
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="shoulderPitchLeft" />
+              <geom type="mesh" rgba="1 1 1 1" mesh="shoulderPitchLeft" />
+              <body name="shoulderRollLeft" pos="0.0362 0.0435 0" quat="0.984808 -0.173648 0 0">
+                <inertial pos="-0.0343733 0.00962154 -0.0154456" quat="0.942019 0.255487 0.0666284 -0.207093" mass="1.07882" diaginertia="0.00167363 0.00165995 0.000668084" />
+                <joint name="shoulderRoll_Left" pos="0 0 0" axis="1 0 0" range="-0.628 2.793" actuatorfrcrange="-65 65" />
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="shoulderRollLeft" />
+                <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="shoulderRollLeft" />
+                <body name="shoulderYawLeft" pos="-0.0362 0.034 -0.0797">
+                  <inertial pos="-0.00051421 -0.00044442 -0.0619328" quat="0.999912 -0.00948825 0.00877343 0.00302026" mass="0.90142" diaginertia="0.00328641 0.0031732 0.000574119" />
+                  <joint name="shoulderYaw_Left" pos="0 0 0" axis="0 0 1" range="-2.583 2.583" actuatorfrcrange="-65 65" />
+                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="shoulderYawLeft" />
+                  <geom type="mesh" rgba="1 1 1 1" mesh="shoulderYawLeft" />
+                  <body name="elbowLeft" pos="0 -0.0285 -0.18295">
+                    <inertial pos="-0.0140727 0.0292971 -0.0253473" quat="0.716894 0.14594 0.188043 0.65529" mass="0.917707" diaginertia="0.00110505 0.00109887 0.000457654" />
+                    <joint name="elbow_Left" pos="0 0 0" axis="0 1 0" range="-2.496 0.209" actuatorfrcrange="-30 30" />
+                    <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="elbowLeft" />
+                    <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="elbowLeft" />
+                    <body name="wristYawLeft" pos="-0.025 0.0285 -0.0729">
+                      <inertial pos="-0.00174399 0.0001059 -0.0921606" quat="0.999719 0.00455358 0.00795284 0.0218673" mass="0.955879" diaginertia="0.00254019 0.00248455 0.000526048" />
+                      <joint name="wristYaw_Left" pos="0 0 0" axis="0 0 1" range="-2.67 2.67" actuatorfrcrange="-6.4 6.4" />
+                      <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="wristYawLeft" />
+                      <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="wristYawLeft" />
+                      <body name="wristPitchLeft" pos="0 0 -0.2017">
+                        <inertial pos="-0.00017582 0.00166098 -2.773e-05" quat="0.501712 0.498275 -0.499779 0.500227" mass="0.119635" diaginertia="3.97702e-05 3.35901e-05 2.68997e-05" />
+                        <joint name="wristPitch_Left" pos="0 0 0" axis="0 1 0" range="-0.96 0.96" actuatorfrcrange="-6.4 6.4" />
+                        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="wristPitchLeft" />
+                        <geom type="mesh" rgba="1 1 1 1" mesh="wristPitchLeft" />
+                        <body name="wristRollLeft">
+                          <inertial pos="-0.000373163 0.00429738 -0.0934839" quat="0.712079 0.00777805 -0.051641 0.700155" mass="0.555468" diaginertia="0.000399952 0.000334921 0.000143364" />
+                          <joint name="wristRoll_Left" pos="0 0 0" axis="1 0 0" range="-0.907 0.907" actuatorfrcrange="-6.4 6.4" />
+                          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="wristRollLeft" />
+                          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_base_link" />
+                          <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_base_link" />
+                          <geom pos="0.00036819 -0.012296 -0.1251" quat="-2.59734e-06 2.59735e-06 -0.707108 0.707105" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_palm_force_sensor" />
+                          <geom pos="0.00036819 -0.012296 -0.1251" quat="-2.59734e-06 2.59735e-06 -0.707108 0.707105" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_palm_force_sensor" />
+                          <body name="l_left_thumb_1" pos="0.0269 -0.02101 -0.0744" quat="0.000796327 -1 0 0">
+                            <inertial pos="0.000892587 0.000344905 0.00159994" quat="0.985466 0.00605548 0.115048 0.124838" mass="0.00746" diaginertia="1.34891e-07 1.09691e-07 6.68155e-08" />
+                            <joint name="l_left_thumb_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.1624" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_thumb_1" />
+                            <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_thumb_1" />
+                            <body name="l_left_thumb_2" pos="0.0073431 0.011232 0.0052" quat="0.0922934 0.0922938 -0.701059 -0.701056">
+                              <inertial pos="-0.0141191 0.0118389 -0.0088672" quat="0.152261 0.678876 -0.168783 0.698181" mass="0.04364" diaginertia="1.52495e-06 1.17176e-06 1.06745e-06" />
+                              <joint name="l_left_thumb_2_joint" pos="0 0 0" axis="0 0 -1" range="0 0.586" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_thumb_2" />
+                              <geom pos="-0.0087121 0.026305 -0.0089605" quat="0.405917 -0.578993 -0.405916 -0.578991" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_thumb_force_sensor_1" />
+                              <geom pos="-0.0087121 0.026305 -0.0089605" quat="0.405917 -0.578993 -0.405916 -0.578991" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_thumb_force_sensor_1" />
+                              <body name="l_left_thumb_3" pos="-0.031403 0.021069 -0.001299">
+                                <inertial pos="-0.0106831 0.00293204 -0.0079803" quat="0.630491 0.725992 0.273308 -0.0268299" mass="0.01601" diaginertia="1.03234e-06 9.80921e-07 4.62549e-07" />
+                                <joint name="l_left_thumb_3_joint" pos="0 0 0" axis="0 0 -1" range="0 0.5" actuatorfrcrange="-10 10" />
+                                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_thumb_3" />
+                                <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_thumb_3" />
+                                <geom pos="-0.011771 0.01699 -0.0077514" quat="0.428302 -0.562766 -0.428175 -0.562599" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_thumb_force_sensor_2" />
+                                <geom pos="-0.011771 0.01699 -0.0077514" quat="0.428302 -0.562766 -0.428175 -0.562599" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_thumb_force_sensor_2" />
+                                <body name="l_left_thumb_4" pos="-0.021903 0.012816 -0.0003">
+                                  <inertial pos="-0.0154206 0.00325953 -0.00981932" quat="0.509539 0.730741 0.454295 -0.00191329" mass="0.01172" diaginertia="2.01225e-06 1.78327e-06 7.11257e-07" />
+                                  <joint name="l_left_thumb_4_joint" pos="0 0 0" axis="0 0 -1" range="0 3.14" actuatorfrcrange="-10 10" />
+                                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_thumb_4" />
+                                  <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_thumb_4" />
+                                  <geom pos="-0.014598 0.014721 -0.0073103" quat="0.348432 -0.615302 -0.348433 -0.615299" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_thumb_force_sensor_3" />
+                                  <geom pos="-0.014598 0.014721 -0.0073103" quat="0.348432 -0.615302 -0.348433 -0.615299" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_thumb_force_sensor_3" />
+                                  <geom pos="-0.028987 0.017301 -0.0073513" quat="-0.356218 0.610827 -0.356216 -0.610827" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_thumb_force_sensor_4" />
+                                  <geom pos="-0.028987 0.017301 -0.0073513" quat="-0.356218 0.610827 -0.356216 -0.610827" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_thumb_force_sensor_4" />
+                                </body>
+                              </body>
+                            </body>
+                          </body>
+                          <body name="l_left_index_1" pos="0.038679 -0.00056467 -0.1619" quat="0.496209 -0.503761 -0.503763 0.496211">
+                            <inertial pos="-0.0027798 0.0120616 0.00599425" quat="0.335314 0.231303 -0.81565 0.410827" mass="0.02941" diaginertia="2.19245e-06 1.8452e-06 8.88525e-07" />
+                            <joint name="l_left_index_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.4244" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_index_1" />
+                            <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_index_1" />
+                            <geom pos="-0.012046 0.019649 0.006651" quat="0.701686 -0.0622873 -0.704358 -0.0873853" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_index_force_sensor_1" />
+                            <geom pos="-0.012046 0.019649 0.006651" quat="0.701686 -0.0622873 -0.704358 -0.0873853" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_index_force_sensor_1" />
+                            <body name="l_left_index_2" pos="-0.0034259 0.032596 0.00055">
+                              <inertial pos="-0.00156369 0.0175358 0.00500993" quat="0.396288 0.415196 -0.594023 0.563654" mass="0.01418" diaginertia="1.00912e-05 8.43434e-06 1.98804e-06" />
+                              <joint name="l_left_index_2_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_index_2" />
+                              <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_index_2" />
+                              <geom pos="-0.0081655 0.037446 0.0060795" quat="0.698536 0.13559 -0.693985 0.109758" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_index_force_sensor_2" />
+                              <geom pos="-0.0081655 0.037446 0.0060795" quat="0.698536 0.13559 -0.693985 0.109758" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_index_force_sensor_2" />
+                              <geom pos="-0.0086237 0.052572 0.0060954" quat="0.658743 -0.226725 -0.669773 -0.257017" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_index_force_sensor_3" />
+                              <geom pos="-0.0086237 0.052572 0.0060954" quat="0.658743 -0.226725 -0.669773 -0.257017" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_index_force_sensor_3" />
+                            </body>
+                          </body>
+                          <body name="l_left_middle_1" pos="0.0171 -0.00056467 -0.1625" quat="0.499998 -0.5 -0.500002 0.5">
+                            <inertial pos="-0.00278814 0.0120854 0.00599425" quat="0.338048 0.229333 -0.817612 0.40576" mass="0.02941" diaginertia="2.17435e-06 1.81621e-06 8.99186e-07" />
+                            <joint name="l_left_middle_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.4244" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_middle_1" />
+                            <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_middle_1" />
+                            <geom pos="-0.012046 0.019649 0.006651" quat="0.703134 -0.0748456 -0.703135 -0.0748437" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_middle_force_sensor_1" />
+                            <geom pos="-0.012046 0.019649 0.006651" quat="0.703134 -0.0748456 -0.703135 -0.0748437" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_middle_force_sensor_1" />
+                            <body name="l_left_middle_2" pos="-0.0034259 0.032596 0.00055">
+                              <inertial pos="-0.00206152 0.0203704 0.00493141" quat="0.402299 0.423075 -0.602547 0.544152" mass="0.01761" diaginertia="1.1944e-05 1.00683e-05 2.23451e-06" />
+                              <joint name="l_left_middle_2_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_middle_2" />
+                              <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_middle_2" />
+                              <geom pos="-0.009086 0.040962 0.0061003" quat="0.694858 0.131041 -0.694858 0.131044" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_middle_force_sensor_2" />
+                              <geom pos="-0.009086 0.040962 0.0061003" quat="0.694858 0.131041 -0.694858 0.131044" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_middle_force_sensor_2" />
+                              <geom pos="-0.0098294 0.056051 0.0061006" quat="0.667288 -0.233938 -0.667289 -0.233936" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_middle_force_sensor_3" />
+                              <geom pos="-0.0098294 0.056051 0.0061006" quat="0.667288 -0.233938 -0.667289 -0.233936" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_middle_force_sensor_3" />
+                            </body>
+                          </body>
+                          <body name="l_left_ring_1" pos="-0.0045302 -0.00056467 -0.16233" quat="0.512925 -0.48673 -0.486732 0.512927">
+                            <inertial pos="-0.00279904 0.0121214 0.00599425" quat="0.341657 0.226163 -0.820695 0.398222" mass="0.02941" diaginertia="2.14701e-06 1.77247e-06 9.1533e-07" />
+                            <joint name="l_left_ring_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.4244" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_ring_1" />
+                            <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_ring_1" />
+                            <geom pos="-0.012046 0.019649 0.006651" quat="0.704887 -0.0936618 -0.700876 -0.0559809" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_ring_force_sensor_1" />
+                            <geom pos="-0.012046 0.019649 0.006651" quat="0.704887 -0.0936618 -0.700876 -0.0559809" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_ring_force_sensor_1" />
+                            <body name="l_left_ring_2" pos="-0.0034259 0.032596 0.00055">
+                              <inertial pos="-0.00191784 0.0180594 0.00504847" quat="0.408379 0.398611 -0.604779 0.555499" mass="0.01481" diaginertia="1.00053e-05 8.41672e-06 1.9262e-06" />
+                              <joint name="l_left_ring_2_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_ring_2" />
+                              <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_ring_2" />
+                              <geom pos="-0.0081655 0.037446 0.0060795" quat="0.692694 0.103257 -0.699527 0.142038" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_ring_force_sensor_2" />
+                              <geom pos="-0.0081655 0.037446 0.0060795" quat="0.692694 0.103257 -0.699527 0.142038" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_ring_force_sensor_2" />
+                              <geom pos="-0.0086237 0.052572 0.0060954" quat="0.6723 -0.264487 -0.655779 -0.219118" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_ring_force_sensor_3" />
+                              <geom pos="-0.0086237 0.052572 0.0060954" quat="0.6723 -0.264487 -0.655779 -0.219118" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_ring_force_sensor_3" />
+                            </body>
+                          </body>
+                          <body name="l_left_little_1" pos="-0.025916 -0.00056467 -0.15915" quat="0.525476 -0.473152 -0.473154 0.525478">
+                            <inertial pos="-0.00280799 0.012158 0.00599425" quat="0.34468 0.222753 -0.823943 0.390763" mass="0.02941" diaginertia="2.11947e-06 1.72847e-06 9.31639e-07" />
+                            <joint name="l_left_little_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.4244" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_little_1" />
+                            <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_little_1" />
+                            <geom pos="-0.012046 0.019649 0.006651" quat="0.706132 -0.112374 -0.69812 -0.0371073" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_little_force_sensor_1" />
+                            <geom pos="-0.012046 0.019649 0.006651" quat="0.706132 -0.112374 -0.69812 -0.0371073" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_little_force_sensor_1" />
+                            <body name="l_left_little_2" pos="-0.0034259 0.032596 0.00055">
+                              <inertial pos="-0.00124753 0.0130025 0.00463411" quat="0.400355 0.386309 -0.630274 0.541512" mass="0.01157" diaginertia="6.18511e-06 5.27433e-06 1.16308e-06" />
+                              <joint name="l_left_little_2_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_little_2" />
+                              <geom type="mesh" rgba="0.792157 0.819608 0.933333 1" mesh="ir_l_left_little_2" />
+                              <geom pos="-0.0064514 0.027683 0.0061172" quat="0.689046 0.0814204 -0.702404 0.158792" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_little_force_sensor_2" />
+                              <geom pos="-0.0064514 0.027683 0.0061172" quat="0.689046 0.0814204 -0.702404 0.158792" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_little_force_sensor_2" />
+                              <geom pos="-0.0063973 0.042707 0.0061154" quat="0.678772 -0.289133 -0.645293 -0.198161" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_little_force_sensor_3" />
+                              <geom pos="-0.0063973 0.042707 0.0061154" quat="0.678772 -0.289133 -0.645293 -0.198161" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_l_little_force_sensor_3" />
+                            </body>
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+            <body name="shoulderPitchRight" pos="0 -0.165094 0.25923" quat="0.984808 -0.173648 0 0">
+              <inertial pos="0.00536737 -0.0269397 0.00010693" quat="0.0534521 0.70731 -0.0534944 0.702847" mass="0.216487" diaginertia="0.000381338 0.000323123 0.000187559" />
+              <joint name="shoulderPitch_Right" pos="0 0 0" axis="0 1 0" range="-3.613 2.042" actuatorfrcrange="-65 65" />
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="shoulderPitchRight" />
+              <geom type="mesh" rgba="1 1 1 1" mesh="shoulderPitchRight" />
+              <body name="shoulderRollRight" pos="0.0362 -0.0435 0" quat="0.984808 0.173648 0 0">
+                <inertial pos="-0.0342995 -0.00987424 -0.0157184" quat="0.935991 -0.254513 0.072526 0.232131" mass="1.08875" diaginertia="0.0017015 0.00168047 0.000675786" />
+                <joint name="shoulderRoll_Right" pos="0 0 0" axis="1 0 0" range="-2.793 0.628" actuatorfrcrange="-65 65" />
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="shoulderRollRight" />
+                <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="shoulderRollRight" />
+                <body name="shoulderYawRight" pos="-0.0362 -0.034 -0.0797">
+                  <inertial pos="-0.00051403 0.00046316 -0.0619299" quat="0.999904 0.00944783 0.00878884 -0.00513002" mass="0.901393" diaginertia="0.00328611 0.00317291 0.000574074" />
+                  <joint name="shoulderYaw_Right" pos="0 0 0" axis="0 0 1" range="-2.583 2.583" actuatorfrcrange="-65 65" />
+                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="shoulderYawRight" />
+                  <geom type="mesh" rgba="1 1 1 1" mesh="shoulderYawRight" />
+                  <body name="elbowRight" pos="0 0.0285 -0.18295">
+                    <inertial pos="-0.0140891 -0.0292958 -0.0253475" quat="0.638945 0.191038 0.141578 0.73158" mass="0.917707" diaginertia="0.00110466 0.00109851 0.000457521" />
+                    <joint name="elbow_Right" pos="0 0 0" axis="0 1 0" range="-2.496 0.209" actuatorfrcrange="-30 30" />
+                    <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="elbowRight" />
+                    <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="elbowRight" />
+                    <body name="wristYawRight" pos="-0.025 -0.0285 -0.0729">
+                      <inertial pos="-0.00173086 -0.00013146 -0.0921689" quat="0.999713 -0.00473049 0.00793689 -0.0221096" mass="0.955878" diaginertia="0.00254068 0.00248454 0.000525567" />
+                      <joint name="wristYaw_Right" pos="0 0 0" axis="0 0 1" range="-2.67 2.67" actuatorfrcrange="-6.4 6.4" />
+                      <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="wristYawRight" />
+                      <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="wristYawRight" />
+                      <body name="wristPitchRight" pos="0 0 -0.2017">
+                        <inertial pos="-0.0001758 0.00166098 -2.773e-05" quat="0.501712 0.498275 -0.499779 0.500227" mass="0.119635" diaginertia="3.97702e-05 3.35901e-05 2.68997e-05" />
+                        <joint name="wristPitch_Right" pos="0 0 0" axis="0 1 0" range="-0.96 0.96" actuatorfrcrange="-6.4 6.4" />
+                        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="wristPitchRight" />
+                        <geom type="mesh" rgba="1 1 1 1" mesh="wristPitchRight" />
+                        <body name="wristRollRight">
+                          <inertial pos="-0.000284491 -0.00425039 -0.0938877" quat="0.701089 -0.0517698 0.0075501 0.711152" mass="0.555468" diaginertia="0.000401322 0.000336314 0.000143328" />
+                          <joint name="wristRoll_Right" pos="0 0 0" axis="1 0 0" range="-0.907 0.907" actuatorfrcrange="-6.4 6.4" />
+                          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.75294 0.75294 0.75294 1" mesh="wristRollRight" />
+                          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_base_link" />
+                          <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_base_link" />
+                          <geom pos="0.00036819 0.012296 -0.1251" quat="-0.707108 0.707105 -0.000565686 -0.00056049" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_palm_force_sensor" />
+                          <geom pos="0.00036819 0.012296 -0.1251" quat="-0.707108 0.707105 -0.000565686 -0.00056049" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_palm_force_sensor" />
+                          <body name="r_right_thumb_1" pos="0.0269 0.02101 -0.0744" quat="0.000796327 0 1 0">
+                            <inertial pos="-0.000892587 0.000344906 0.00159994" quat="0.985466 0.0060554 -0.115048 -0.124838" mass="0.00746" diaginertia="1.34891e-07 1.09691e-07 6.68155e-08" />
+                            <joint name="r_right_thumb_1_joint" pos="0 0 0" axis="0 0 -1" range="0 1.1624" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_thumb_1" />
+                            <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_thumb_1" />
+                            <body name="r_right_thumb_2" pos="-0.0079252 0.0090599 0.0052" quat="0.0922934 0.0922938 0.701059 0.701056">
+                              <inertial pos="0.0129116 0.0117966 -0.00627818" quat="-0.0815936 0.801441 0.0320301 0.591615" mass="0.04364" diaginertia="3.13605e-06 2.81925e-06 1.0836e-06" />
+                              <joint name="r_right_thumb_2_joint" pos="0 0 0" axis="0 0 1" range="0 0.586" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_thumb_2" />
+                              <geom pos="0.0087121 0.026305 -0.0067115" quat="0.579327 -0.405437 -0.579328 -0.405439" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_thumb_force_sensor_1" />
+                              <geom pos="0.0087121 0.026305 -0.0067115" quat="0.579327 -0.405437 -0.579328 -0.405439" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_thumb_force_sensor_1" />
+                              <body name="r_right_thumb_3" pos="0.031403 0.021069 0.00095">
+                                <inertial pos="0.00971763 0.00293901 -0.00649715" quat="0.807724 0.467335 -0.172304 -0.315423" mass="0.01601" diaginertia="1.67363e-06 1.56118e-06 4.45271e-07" />
+                                <joint name="r_right_thumb_3_joint" pos="0 0 0" axis="0 0 1" range="0 0.5" actuatorfrcrange="-10 10" />
+                                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_thumb_3" />
+                                <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_thumb_3" />
+                                <geom pos="0.011771 0.01699 -0.0077514" quat="-0.562601 0.428173 0.562767 0.4283" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_thumb_force_sensor_2" />
+                                <geom pos="0.011771 0.01699 -0.0077514" quat="-0.562601 0.428173 0.562767 0.4283" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_thumb_force_sensor_2" />
+                                <body name="r_right_thumb_4" pos="0.021903 0.012816 -0.0003">
+                                  <inertial pos="0.0116518 0.00327246 -0.00268043" quat="-0.0664901 0.845795 0.311379 0.428081" mass="0.01172" diaginertia="3.86055e-06 3.73237e-06 1.02914e-06" />
+                                  <joint name="r_right_thumb_4_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_thumb_4" />
+                                  <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_thumb_4" />
+                                  <geom pos="0.014598 0.01472 -0.0073103" quat="0.615658 -0.347798 -0.615661 -0.347797" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_thumb_force_sensor_3" />
+                                  <geom pos="0.014598 0.01472 -0.0073103" quat="0.615658 -0.347798 -0.615661 -0.347797" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_thumb_force_sensor_3" />
+                                  <geom pos="0.028987 0.017301 -0.0073512" quat="0.609148 -0.359083 0.609147 0.359081" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_thumb_force_sensor_4" />
+                                  <geom pos="0.028987 0.017301 -0.0073512" quat="0.609148 -0.359083 0.609147 0.359081" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_thumb_force_sensor_4" />
+                                </body>
+                              </body>
+                            </body>
+                          </body>
+                          <body name="r_right_index_1" pos="0.038679 0.00056467 -0.1619" quat="0.509041 -0.490794 0.491602 -0.508257">
+                            <inertial pos="-0.00277903 0.0125621 -0.00685183" quat="0.426981 0.417168 -0.595771 0.537322" mass="0.02941" diaginertia="1.52353e-06 1.16766e-06 8.69688e-07" />
+                            <joint name="r_right_index_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.4244" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_index_1" />
+                            <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_index_1" />
+                            <geom pos="-0.012046 0.019649 -0.006651" quat="0.704358 -0.0873853 -0.701686 -0.0622873" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_index_force_sensor_1" />
+                            <geom pos="-0.012046 0.019649 -0.006651" quat="0.704358 -0.0873853 -0.701686 -0.0622873" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_index_force_sensor_1" />
+                            <body name="r_right_index_2" pos="-0.0034259 0.032596 -0.00055">
+                              <inertial pos="-0.00276726 0.018588 -0.00545137" quat="0.530279 0.423867 -0.516746 0.521646" mass="0.01418" diaginertia="9.37095e-06 8.09391e-06 1.70538e-06" />
+                              <joint name="r_right_index_2_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_index_2" />
+                              <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_index_2" />
+                              <geom pos="-0.0081655 0.037446 -0.0060795" quat="0.693985 0.109758 -0.698536 0.13559" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_index_force_sensor_2" />
+                              <geom pos="-0.0081655 0.037446 -0.0060795" quat="0.693985 0.109758 -0.698536 0.13559" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_index_force_sensor_2" />
+                              <geom pos="-0.0086237 0.052572 -0.0060954" quat="0.66977 -0.257027 -0.658739 -0.226735" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_index_force_sensor_3" />
+                              <geom pos="-0.0086237 0.052572 -0.0060954" quat="0.66977 -0.257027 -0.658739 -0.226735" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_index_force_sensor_3" />
+                            </body>
+                          </body>
+                          <body name="r_right_middle_1" pos="0.0171 0.00056467 -0.1625" quat="0.5004 -0.499602 0.500396 -0.499602">
+                            <inertial pos="-0.00278766 0.0125385 -0.00685183" quat="0.437494 0.408757 -0.606551 0.52308" mass="0.02941" diaginertia="1.53966e-06 1.17768e-06 8.75576e-07" />
+                            <joint name="r_right_middle_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.4244" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_middle_1" />
+                            <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_middle_1" />
+                            <geom pos="-0.012046 0.019649 -0.006651" quat="-0.703076 0.0754056 0.703073 0.0754054" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_middle_force_sensor_1" />
+                            <geom pos="-0.012046 0.019649 -0.006651" quat="-0.703076 0.0754056 0.703073 0.0754054" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_middle_force_sensor_1" />
+                            <body name="r_right_middle_2" pos="-0.0034259 0.032596 -0.00055">
+                              <inertial pos="-0.00275426 0.0210621 -0.0058845" quat="0.508601 0.438771 -0.528202 0.51943" mass="0.01761" diaginertia="1.11711e-05 9.60259e-06 1.98242e-06" />
+                              <joint name="r_right_middle_2_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_middle_2" />
+                              <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_middle_2" />
+                              <geom pos="-0.0090859 0.040963 -0.0061003" quat="-0.695008 -0.130248 0.695006 -0.130249" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_middle_force_sensor_2" />
+                              <geom pos="-0.0090859 0.040963 -0.0061003" quat="-0.695008 -0.130248 0.695006 -0.130249" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_middle_force_sensor_2" />
+                              <geom pos="-0.0098294 0.056051 -0.0061006" quat="-0.667101 0.234473 0.667099 0.234472" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_middle_force_sensor_3" />
+                              <geom pos="-0.0098294 0.056051 -0.0061006" quat="-0.667101 0.234473 0.667099 0.234472" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_middle_force_sensor_3" />
+                            </body>
+                          </body>
+                          <body name="r_right_ring_1" pos="-0.0045302 0.00056467 -0.16233" quat="0.48714 -0.512539 0.513313 -0.486321">
+                            <inertial pos="-0.00279907 0.0125023 -0.00685183" quat="0.452184 0.396123 -0.621547 0.50229" mass="0.02941" diaginertia="1.56456e-06 1.19708e-06 8.80797e-07" />
+                            <joint name="r_right_ring_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.4244" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_ring_1" />
+                            <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_ring_1" />
+                            <geom pos="-0.0120462 0.0196485 -0.00665098" quat="0.700879 -0.0559904 -0.704887 -0.0936441" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_ring_force_sensor_1" />
+                            <geom pos="-0.0120462 0.0196485 -0.00665098" quat="0.700879 -0.0559904 -0.704887 -0.0936441" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_ring_force_sensor_1" />
+                            <body name="r_right_ring_2" pos="-0.0034259 0.032596 -0.00055">
+                              <inertial pos="-0.00225508 0.0185969 -0.00548621" quat="0.512134 0.432591 -0.5111 0.537923" mass="0.01481" diaginertia="9.58943e-06 8.24493e-06 1.76555e-06" />
+                              <joint name="r_right_ring_2_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_ring_2" />
+                              <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_ring_2" />
+                              <geom pos="-0.00816549 0.0374458 -0.00607949" quat="0.699529 0.14203 -0.692696 0.103242" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_ring_force_sensor_2" />
+                              <geom pos="-0.00816549 0.0374458 -0.00607949" quat="0.699529 0.14203 -0.692696 0.103242" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_ring_force_sensor_2" />
+                              <geom pos="-0.00862373 0.0525719 -0.00609539" quat="0.655775 -0.219109 -0.672303 -0.264497" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_ring_force_sensor_3" />
+                              <geom pos="-0.00862373 0.0525719 -0.00609539" quat="0.655775 -0.219109 -0.672303 -0.264497" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_ring_force_sensor_3" />
+                            </body>
+                          </body>
+                          <body name="r_right_little_1" pos="-0.025916 0.00056467 -0.15915" quat="0.473572 -0.525101 0.525853 -0.472733">
+                            <inertial pos="-0.00280852 0.0124657 -0.00685182" quat="0.464726 0.384634 -0.63412 0.483713" mass="0.02941" diaginertia="1.59002e-06 1.22122e-06 8.81891e-07" />
+                            <joint name="r_right_little_1_joint" pos="0 0 0" axis="0 0 1" range="0 1.4244" actuatorfrcrange="-10 10" />
+                            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_little_1" />
+                            <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_little_1" />
+                            <geom pos="-0.0120462 0.0196485 -0.00665098" quat="0.698121 -0.0371013 -0.706133 -0.112372" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_little_force_sensor_1" />
+                            <geom pos="-0.0120462 0.0196485 -0.00665098" quat="0.698121 -0.0371013 -0.706133 -0.112372" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_little_force_sensor_1" />
+                            <body name="r_right_little_2" pos="-0.0034259 0.032596 -0.00055">
+                              <inertial pos="-0.00126052 0.0135222 -0.00546358" quat="0.514505 0.444248 -0.503136 0.53365" mass="0.01157" diaginertia="5.90249e-06 5.12172e-06 1.07769e-06" />
+                              <joint name="r_right_little_2_joint" pos="0 0 0" axis="0 0 1" range="0 3.14" actuatorfrcrange="-10 10" />
+                              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="ir_r_right_little_2" />
+                              <geom type="mesh" rgba="1 1 1 1" mesh="ir_r_right_little_2" />
+                              <geom pos="-0.00645124 0.0276833 -0.00611719" quat="0.702403 0.158797 -0.689045 0.0814212" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_little_force_sensor_2" />
+                              <geom pos="-0.00645124 0.0276833 -0.00611719" quat="0.702403 0.158797 -0.689045 0.0814212" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_little_force_sensor_2" />
+                              <geom pos="-0.00639723 0.0427069 -0.00611537" quat="0.645296 -0.19817 -0.67877 -0.289124" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_little_force_sensor_3" />
+                              <geom pos="-0.00639723 0.0427069 -0.00611537" quat="0.645296 -0.19817 -0.67877 -0.289124" type="mesh" rgba="0.411765 0.411765 0.411765 1" mesh="ir_r_little_force_sensor_3" />
+                            </body>
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+            <body name="neckYaw_link" pos="-0.013 0 0.29855">
+              <inertial pos="0.0228442 -0.00120876 0.0992634" quat="0.719761 0.0861591 0.0813325 0.684036" mass="0.399168" diaginertia="0.00132274 0.00131438 0.000128684" />
+              <joint name="neckYaw" pos="0 0 0" axis="0 0 1" range="-1.571 1.571" actuatorfrcrange="-6.4 6.4" />
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="neckYaw_link" />
+              <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="neckYaw_link" />
+              <body name="neckPitch_link" pos="0.0316 0.01995 0.14595">
+                <inertial pos="0.0174597 -0.0210407 0.0470534" quat="0.0369738 0.852876 0.0341259 0.519683" mass="0.956204" diaginertia="0.00368991 0.00348806 0.00231156" />
+                <joint name="neckPitch" pos="0 0 0" axis="0 1 0" range="-0.873 0.873" actuatorfrcrange="-6.4 6.4" />
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.752941 0.752941 0.752941 1" mesh="neckPitch_link" />
+                <geom type="mesh" rgba="0.752941 0.752941 0.752941 1" mesh="neckPitch_link" />
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <motor joint="waistRoll" name="waistRoll" ctrlrange="-110.0 110.0" />
+    <motor joint="waistPitch" name="waistPitch" ctrlrange="-110.0 110.0" />
+    <motor joint="waistYaw" name="waistYaw" ctrlrange="-110.0 110.0" />
+    <motor joint="shoulderPitch_Left" name="shoulderPitch_Left" ctrlrange="-65.0 65.0" />
+    <motor joint="shoulderRoll_Left" name="shoulderRoll_Left" ctrlrange="-65.0 65.0" />
+    <motor joint="shoulderYaw_Left" name="shoulderYaw_Left" ctrlrange="-65.0 65.0" />
+    <motor joint="elbow_Left" name="elbow_Left" ctrlrange="-30.0 30.0" />
+    <motor joint="wristYaw_Left" name="wristYaw_Left" ctrlrange="-6.4 6.4" />
+    <motor joint="wristPitch_Left" name="wristPitch_Left" ctrlrange="-6.4 6.4" />
+    <motor joint="wristRoll_Left" name="wristRoll_Left" ctrlrange="-6.4 6.4" />
+    <motor joint="l_left_thumb_1_joint" name="l_left_thumb_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_thumb_2_joint" name="l_left_thumb_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_thumb_3_joint" name="l_left_thumb_3_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_thumb_4_joint" name="l_left_thumb_4_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_index_1_joint" name="l_left_index_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_index_2_joint" name="l_left_index_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_middle_1_joint" name="l_left_middle_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_middle_2_joint" name="l_left_middle_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_ring_1_joint" name="l_left_ring_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_ring_2_joint" name="l_left_ring_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_little_1_joint" name="l_left_little_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="l_left_little_2_joint" name="l_left_little_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="shoulderPitch_Right" name="shoulderPitch_Right" ctrlrange="-65.0 65.0" />
+    <motor joint="shoulderRoll_Right" name="shoulderRoll_Right" ctrlrange="-65.0 65.0" />
+    <motor joint="shoulderYaw_Right" name="shoulderYaw_Right" ctrlrange="-65.0 65.0" />
+    <motor joint="elbow_Right" name="elbow_Right" ctrlrange="-30.0 30.0" />
+    <motor joint="wristYaw_Right" name="wristYaw_Right" ctrlrange="-6.4 6.4" />
+    <motor joint="wristPitch_Right" name="wristPitch_Right" ctrlrange="-6.4 6.4" />
+    <motor joint="wristRoll_Right" name="wristRoll_Right" ctrlrange="-6.4 6.4" />
+    <motor joint="r_right_thumb_1_joint" name="r_right_thumb_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_thumb_2_joint" name="r_right_thumb_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_thumb_3_joint" name="r_right_thumb_3_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_thumb_4_joint" name="r_right_thumb_4_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_index_1_joint" name="r_right_index_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_index_2_joint" name="r_right_index_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_middle_1_joint" name="r_right_middle_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_middle_2_joint" name="r_right_middle_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_ring_1_joint" name="r_right_ring_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_ring_2_joint" name="r_right_ring_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_little_1_joint" name="r_right_little_1_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="r_right_little_2_joint" name="r_right_little_2_joint" ctrlrange="-10.0 10.0" />
+    <motor joint="neckYaw" name="neckYaw" ctrlrange="-6.4 6.4" />
+    <motor joint="neckPitch" name="neckPitch" ctrlrange="-6.4 6.4" />
+  </actuator>
+  <sensor>
+    <jointpos name="pos_waistRoll" joint="waistRoll" />
+    <jointpos name="pos_waistPitch" joint="waistPitch" />
+    <jointpos name="pos_waistYaw" joint="waistYaw" />
+    <jointpos name="pos_shoulderPitch_Left" joint="shoulderPitch_Left" />
+    <jointpos name="pos_shoulderRoll_Left" joint="shoulderRoll_Left" />
+    <jointpos name="pos_shoulderYaw_Left" joint="shoulderYaw_Left" />
+    <jointpos name="pos_elbow_Left" joint="elbow_Left" />
+    <jointpos name="pos_wristYaw_Left" joint="wristYaw_Left" />
+    <jointpos name="pos_wristPitch_Left" joint="wristPitch_Left" />
+    <jointpos name="pos_wristRoll_Left" joint="wristRoll_Left" />
+    <jointpos name="pos_l_left_thumb_1_joint" joint="l_left_thumb_1_joint" />
+    <jointpos name="pos_l_left_thumb_2_joint" joint="l_left_thumb_2_joint" />
+    <jointpos name="pos_l_left_thumb_3_joint" joint="l_left_thumb_3_joint" />
+    <jointpos name="pos_l_left_thumb_4_joint" joint="l_left_thumb_4_joint" />
+    <jointpos name="pos_l_left_index_1_joint" joint="l_left_index_1_joint" />
+    <jointpos name="pos_l_left_index_2_joint" joint="l_left_index_2_joint" />
+    <jointpos name="pos_l_left_middle_1_joint" joint="l_left_middle_1_joint" />
+    <jointpos name="pos_l_left_middle_2_joint" joint="l_left_middle_2_joint" />
+    <jointpos name="pos_l_left_ring_1_joint" joint="l_left_ring_1_joint" />
+    <jointpos name="pos_l_left_ring_2_joint" joint="l_left_ring_2_joint" />
+    <jointpos name="pos_l_left_little_1_joint" joint="l_left_little_1_joint" />
+    <jointpos name="pos_l_left_little_2_joint" joint="l_left_little_2_joint" />
+    <jointpos name="pos_shoulderPitch_Right" joint="shoulderPitch_Right" />
+    <jointpos name="pos_shoulderRoll_Right" joint="shoulderRoll_Right" />
+    <jointpos name="pos_shoulderYaw_Right" joint="shoulderYaw_Right" />
+    <jointpos name="pos_elbow_Right" joint="elbow_Right" />
+    <jointpos name="pos_wristYaw_Right" joint="wristYaw_Right" />
+    <jointpos name="pos_wristPitch_Right" joint="wristPitch_Right" />
+    <jointpos name="pos_wristRoll_Right" joint="wristRoll_Right" />
+    <jointpos name="pos_r_right_thumb_1_joint" joint="r_right_thumb_1_joint" />
+    <jointpos name="pos_r_right_thumb_2_joint" joint="r_right_thumb_2_joint" />
+    <jointpos name="pos_r_right_thumb_3_joint" joint="r_right_thumb_3_joint" />
+    <jointpos name="pos_r_right_thumb_4_joint" joint="r_right_thumb_4_joint" />
+    <jointpos name="pos_r_right_index_1_joint" joint="r_right_index_1_joint" />
+    <jointpos name="pos_r_right_index_2_joint" joint="r_right_index_2_joint" />
+    <jointpos name="pos_r_right_middle_1_joint" joint="r_right_middle_1_joint" />
+    <jointpos name="pos_r_right_middle_2_joint" joint="r_right_middle_2_joint" />
+    <jointpos name="pos_r_right_ring_1_joint" joint="r_right_ring_1_joint" />
+    <jointpos name="pos_r_right_ring_2_joint" joint="r_right_ring_2_joint" />
+    <jointpos name="pos_r_right_little_1_joint" joint="r_right_little_1_joint" />
+    <jointpos name="pos_r_right_little_2_joint" joint="r_right_little_2_joint" />
+    <jointpos name="pos_neckYaw" joint="neckYaw" />
+    <jointpos name="pos_neckPitch" joint="neckPitch" />
+    <jointvel name="vel_waistRoll" joint="waistRoll" />
+    <jointvel name="vel_waistPitch" joint="waistPitch" />
+    <jointvel name="vel_waistYaw" joint="waistYaw" />
+    <jointvel name="vel_shoulderPitch_Left" joint="shoulderPitch_Left" />
+    <jointvel name="vel_shoulderRoll_Left" joint="shoulderRoll_Left" />
+    <jointvel name="vel_shoulderYaw_Left" joint="shoulderYaw_Left" />
+    <jointvel name="vel_elbow_Left" joint="elbow_Left" />
+    <jointvel name="vel_wristYaw_Left" joint="wristYaw_Left" />
+    <jointvel name="vel_wristPitch_Left" joint="wristPitch_Left" />
+    <jointvel name="vel_wristRoll_Left" joint="wristRoll_Left" />
+    <jointvel name="vel_l_left_thumb_1_joint" joint="l_left_thumb_1_joint" />
+    <jointvel name="vel_l_left_thumb_2_joint" joint="l_left_thumb_2_joint" />
+    <jointvel name="vel_l_left_thumb_3_joint" joint="l_left_thumb_3_joint" />
+    <jointvel name="vel_l_left_thumb_4_joint" joint="l_left_thumb_4_joint" />
+    <jointvel name="vel_l_left_index_1_joint" joint="l_left_index_1_joint" />
+    <jointvel name="vel_l_left_index_2_joint" joint="l_left_index_2_joint" />
+    <jointvel name="vel_l_left_middle_1_joint" joint="l_left_middle_1_joint" />
+    <jointvel name="vel_l_left_middle_2_joint" joint="l_left_middle_2_joint" />
+    <jointvel name="vel_l_left_ring_1_joint" joint="l_left_ring_1_joint" />
+    <jointvel name="vel_l_left_ring_2_joint" joint="l_left_ring_2_joint" />
+    <jointvel name="vel_l_left_little_1_joint" joint="l_left_little_1_joint" />
+    <jointvel name="vel_l_left_little_2_joint" joint="l_left_little_2_joint" />
+    <jointvel name="vel_shoulderPitch_Right" joint="shoulderPitch_Right" />
+    <jointvel name="vel_shoulderRoll_Right" joint="shoulderRoll_Right" />
+    <jointvel name="vel_shoulderYaw_Right" joint="shoulderYaw_Right" />
+    <jointvel name="vel_elbow_Right" joint="elbow_Right" />
+    <jointvel name="vel_wristYaw_Right" joint="wristYaw_Right" />
+    <jointvel name="vel_wristPitch_Right" joint="wristPitch_Right" />
+    <jointvel name="vel_wristRoll_Right" joint="wristRoll_Right" />
+    <jointvel name="vel_r_right_thumb_1_joint" joint="r_right_thumb_1_joint" />
+    <jointvel name="vel_r_right_thumb_2_joint" joint="r_right_thumb_2_joint" />
+    <jointvel name="vel_r_right_thumb_3_joint" joint="r_right_thumb_3_joint" />
+    <jointvel name="vel_r_right_thumb_4_joint" joint="r_right_thumb_4_joint" />
+    <jointvel name="vel_r_right_index_1_joint" joint="r_right_index_1_joint" />
+    <jointvel name="vel_r_right_index_2_joint" joint="r_right_index_2_joint" />
+    <jointvel name="vel_r_right_middle_1_joint" joint="r_right_middle_1_joint" />
+    <jointvel name="vel_r_right_middle_2_joint" joint="r_right_middle_2_joint" />
+    <jointvel name="vel_r_right_ring_1_joint" joint="r_right_ring_1_joint" />
+    <jointvel name="vel_r_right_ring_2_joint" joint="r_right_ring_2_joint" />
+    <jointvel name="vel_r_right_little_1_joint" joint="r_right_little_1_joint" />
+    <jointvel name="vel_r_right_little_2_joint" joint="r_right_little_2_joint" />
+    <jointvel name="vel_neckYaw" joint="neckYaw" />
+    <jointvel name="vel_neckPitch" joint="neckPitch" />
+    <jointactuatorfrc name="force_waistRoll" joint="waistRoll" />
+    <jointactuatorfrc name="force_waistPitch" joint="waistPitch" />
+    <jointactuatorfrc name="force_waistYaw" joint="waistYaw" />
+    <jointactuatorfrc name="force_shoulderPitch_Left" joint="shoulderPitch_Left" />
+    <jointactuatorfrc name="force_shoulderRoll_Left" joint="shoulderRoll_Left" />
+    <jointactuatorfrc name="force_shoulderYaw_Left" joint="shoulderYaw_Left" />
+    <jointactuatorfrc name="force_elbow_Left" joint="elbow_Left" />
+    <jointactuatorfrc name="force_wristYaw_Left" joint="wristYaw_Left" />
+    <jointactuatorfrc name="force_wristPitch_Left" joint="wristPitch_Left" />
+    <jointactuatorfrc name="force_wristRoll_Left" joint="wristRoll_Left" />
+    <jointactuatorfrc name="force_l_left_thumb_1_joint" joint="l_left_thumb_1_joint" />
+    <jointactuatorfrc name="force_l_left_thumb_2_joint" joint="l_left_thumb_2_joint" />
+    <jointactuatorfrc name="force_l_left_thumb_3_joint" joint="l_left_thumb_3_joint" />
+    <jointactuatorfrc name="force_l_left_thumb_4_joint" joint="l_left_thumb_4_joint" />
+    <jointactuatorfrc name="force_l_left_index_1_joint" joint="l_left_index_1_joint" />
+    <jointactuatorfrc name="force_l_left_index_2_joint" joint="l_left_index_2_joint" />
+    <jointactuatorfrc name="force_l_left_middle_1_joint" joint="l_left_middle_1_joint" />
+    <jointactuatorfrc name="force_l_left_middle_2_joint" joint="l_left_middle_2_joint" />
+    <jointactuatorfrc name="force_l_left_ring_1_joint" joint="l_left_ring_1_joint" />
+    <jointactuatorfrc name="force_l_left_ring_2_joint" joint="l_left_ring_2_joint" />
+    <jointactuatorfrc name="force_l_left_little_1_joint" joint="l_left_little_1_joint" />
+    <jointactuatorfrc name="force_l_left_little_2_joint" joint="l_left_little_2_joint" />
+    <jointactuatorfrc name="force_shoulderPitch_Right" joint="shoulderPitch_Right" />
+    <jointactuatorfrc name="force_shoulderRoll_Right" joint="shoulderRoll_Right" />
+    <jointactuatorfrc name="force_shoulderYaw_Right" joint="shoulderYaw_Right" />
+    <jointactuatorfrc name="force_elbow_Right" joint="elbow_Right" />
+    <jointactuatorfrc name="force_wristYaw_Right" joint="wristYaw_Right" />
+    <jointactuatorfrc name="force_wristPitch_Right" joint="wristPitch_Right" />
+    <jointactuatorfrc name="force_wristRoll_Right" joint="wristRoll_Right" />
+    <jointactuatorfrc name="force_r_right_thumb_1_joint" joint="r_right_thumb_1_joint" />
+    <jointactuatorfrc name="force_r_right_thumb_2_joint" joint="r_right_thumb_2_joint" />
+    <jointactuatorfrc name="force_r_right_thumb_3_joint" joint="r_right_thumb_3_joint" />
+    <jointactuatorfrc name="force_r_right_thumb_4_joint" joint="r_right_thumb_4_joint" />
+    <jointactuatorfrc name="force_r_right_index_1_joint" joint="r_right_index_1_joint" />
+    <jointactuatorfrc name="force_r_right_index_2_joint" joint="r_right_index_2_joint" />
+    <jointactuatorfrc name="force_r_right_middle_1_joint" joint="r_right_middle_1_joint" />
+    <jointactuatorfrc name="force_r_right_middle_2_joint" joint="r_right_middle_2_joint" />
+    <jointactuatorfrc name="force_r_right_ring_1_joint" joint="r_right_ring_1_joint" />
+    <jointactuatorfrc name="force_r_right_ring_2_joint" joint="r_right_ring_2_joint" />
+    <jointactuatorfrc name="force_r_right_little_1_joint" joint="r_right_little_1_joint" />
+    <jointactuatorfrc name="force_r_right_little_2_joint" joint="r_right_little_2_joint" />
+    <jointactuatorfrc name="force_neckYaw" joint="neckYaw" />
+    <jointactuatorfrc name="force_neckPitch" joint="neckPitch" />
+  </sensor>
+</mujoco>

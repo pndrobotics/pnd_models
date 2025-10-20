@@ -164,8 +164,7 @@
                   <joint name="ankleRoll_Left" pos="0 0 0" axis="1 0 0" range="-0.3491 0.3491" actuatorfrcrange="-12 12" />
                   <geom mesh="toeLeft_0" material="silver" class="visual" />
                   <geom mesh="toeLeft_1" material="black" class="visual" />
-                  <geom mesh="toeLeft_0" class="collision" />
-                  <geom mesh="toeLeft_1" class="collision" />
+                  <geom size="0.12 0.05 0.01" pos="0.05 0 -0.055" type="box" class="collision" />
                 </body>
               </body>
             </body>
@@ -210,8 +209,7 @@
                   <joint name="ankleRoll_Right" pos="0 0 0" axis="1 0 0" range="-0.3491 0.3491" actuatorfrcrange="-12 12" />
                   <geom mesh="toeRight_0" material="black" class="visual" />
                   <geom mesh="toeRight_1" material="silver" class="visual" />
-                  <geom mesh="toeRight_0" class="collision" />
-                  <geom mesh="toeRight_1" class="collision" />
+                  <geom size="0.12 0.05 0.01" pos="0.05 0 -0.055" type="box" class="collision" />
                 </body>
               </body>
             </body>

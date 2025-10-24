@@ -1,4 +1,4 @@
-<robot name="adam_sp_pro">
+<robot name="adam_pro">
   <mujoco>
     <compiler meshdir="meshes_stl_0.25/" balanceinertia="true" discardvisual="false" />
   </mujoco>

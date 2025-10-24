@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mujoco model="adam_sp_pro">
+<mujoco model="adam_pro">
   <default>
     <default class="visual">
       <geom group="2" type="mesh" contype="0" conaffinity="0" />

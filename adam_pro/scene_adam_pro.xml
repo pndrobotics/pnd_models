@@ -1,6 +1,6 @@
 
-<mujoco model="adam_sp_pro scene">
-	<include file="adam_sp_pro.xml" />
+<mujoco model="adam_pro scene">
+	<include file="adam_pro.xml" />
 	<statistic center="0 0 1" extent="1.8" />
 	<visual>
 		<headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0" />

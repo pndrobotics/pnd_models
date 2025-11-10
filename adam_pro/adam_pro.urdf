@@ -1584,4 +1584,19 @@
     <axis xyz="0 1 0" />
     <limit lower="-0.873" upper="0.873" effort="6.4" velocity="5" />
   </joint>
+
+  <!-- camera -->
+  <link name="left_zed_link"></link>
+  <joint name="left_zed_joint" type="fixed">
+    <origin xyz="0.096 0.0118 0.0407" rpy="0 0 0"/>
+    <parent link="neckPitch_link"/>
+    <child link="left_zed_link"/>
+  </joint>
+  <link name="right_zed_link"></link>
+  <joint name="right_zed_joint" type="fixed">
+    <origin xyz="0.096 -0.0517 0.0407" rpy="0 0 0"/>
+    <parent link="neckPitch_link"/>
+    <child link="right_zed_link"/>
+  </joint>
+
 </robot>

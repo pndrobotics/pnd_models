@@ -537,6 +537,8 @@
                 <joint name="neckPitch" pos="0 0 0" axis="0 1 0" range="-0.873 0.873" actuatorfrcrange="-6.4 6.4" />
                 <geom material="black" mesh="neckPitch_link" class="visual" />
                 <geom mesh="neckPitch_link" class="collision" />
+                <camera name="left_zed" pos="0.096 0.0118 0.0407" xyaxes="0 -1 0 0 0 1" />
+                <camera name="right_zed" pos="0.096 -0.0517 0.0407" xyaxes="0 -1 0 0 0 1" />
               </body>
             </body>
           </body>

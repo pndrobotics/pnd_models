@@ -41,7 +41,7 @@
 		<visual>
 			<origin rpy="0 0 0" xyz="0 0 0" />
 			<geometry>
-				<mesh filename="meshes/vn100-0001.dae" />
+				<mesh filename="meshes/vn100_0001.dae" />
 			</geometry>
 			<!-- <material name="red"/> -->
 		</visual>

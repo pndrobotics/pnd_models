@@ -1,5 +1,6 @@
 /adam_standard
 /adam_standard_*
+/adam_pro_*
 .DS_Store
 
 .pytest_cache/

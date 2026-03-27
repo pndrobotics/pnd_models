@@ -702,12 +702,12 @@
       </geometry>
     </collision>
   </link>
-  <joint name="op_l_hand_narrow1_joint" type="revolute">
+  <joint name="left_gripper_joint" type="revolute">
     <origin rpy="-2.9951 -1.5708 -0.15964" xyz="0 -0.0195 0.0565"/>
     <parent link="op_l_base_link"/>
     <child link="op_l_hand_narrow1_Link"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="0.01" upper="0.78" velocity="3.141592653589793"/>
   </joint>
   <link name="op_l_hand_narrow2_Link">
     <inertial>
@@ -736,7 +736,8 @@
     <parent link="op_l_hand_narrow1_Link"/>
     <child link="op_l_hand_narrow2_Link"/>
     <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="left_gripper_joint" multiplier="0.02" offset="0"/>
   </joint>
   <link name="op_l_hand_narrow3_Link">
     <inertial>
@@ -765,7 +766,8 @@
     <parent link="op_l_hand_narrow2_Link"/>
     <child link="op_l_hand_narrow3_Link"/>
     <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="left_gripper_joint" multiplier="0.4" offset="0"/>
   </joint>
   <link name="op_l_hand_narrow4_Link">
   </link>
@@ -774,7 +776,7 @@
     <parent link="op_l_hand_narrow3_Link"/>
     <child link="op_l_hand_narrow4_Link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
   </joint>
   <link name="op_l_hand_narrow_loop_Link">
     <inertial>
@@ -802,8 +804,9 @@
     <origin rpy="-2.9951 -1.5708 -0.15964" xyz="0 -0.021633 0.07387"/>
     <parent link="op_l_base_link"/>
     <child link="op_l_hand_narrow_loop_Link"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="left_gripper_joint" multiplier="1.5" offset="0"/>
   </joint>
   <link name="op_l_hand_wide1_Link">
     <inertial>
@@ -832,7 +835,8 @@
     <parent link="op_l_base_link"/>
     <child link="op_l_hand_wide1_Link"/>
     <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="left_gripper_joint" multiplier="1" offset="0"/>
   </joint>
   <link name="op_l_hand_wide2_Link">
     <inertial>
@@ -860,8 +864,9 @@
     <origin rpy="0 0 0" xyz="0.030852 -0.018551 0"/>
     <parent link="op_l_hand_wide1_Link"/>
     <child link="op_l_hand_wide2_Link"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="left_gripper_joint" multiplier="0.02" offset="0"/>
   </joint>
   <link name="op_l_hand_wide3_Link">
     <inertial>
@@ -889,8 +894,9 @@
     <origin rpy="0 0 0" xyz="0.018118 0.01574 0"/>
     <parent link="op_l_hand_wide2_Link"/>
     <child link="op_l_hand_wide3_Link"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="left_gripper_joint" multiplier="0.4" offset="0"/>
   </joint>
   <link name="op_l_hand_wide4_Link">
   </link>
@@ -899,7 +905,6 @@
     <parent link="op_l_hand_wide3_Link"/>
     <child link="op_l_hand_wide4_Link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
   </joint>
   <link name="op_l_hand_wide_loop_Link">
     <inertial>
@@ -928,7 +933,8 @@
     <parent link="op_l_base_link"/>
     <child link="op_l_hand_wide_loop_Link"/>
     <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="left_gripper_joint" multiplier="1.5" offset="0"/>
   </joint>
   <!-- Left OmniPicker Hand -->
 
@@ -1175,12 +1181,12 @@
       </geometry>
     </collision>
   </link>
-  <joint name="op_r_hand_narrow1_joint" type="revolute">
+  <joint name="right_gripper_joint" type="revolute">
     <origin rpy="-2.9951 -1.5708 -0.15964" xyz="0 -0.0195 0.0565"/>
     <parent link="op_r_base_link"/>
     <child link="op_r_hand_narrow1_Link"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="0.01" upper="0.785" velocity="3.141592653589793"/>
   </joint>
   <link name="op_r_hand_narrow2_Link">
     <inertial>
@@ -1209,7 +1215,8 @@
     <parent link="op_r_hand_narrow1_Link"/>
     <child link="op_r_hand_narrow2_Link"/>
     <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="right_gripper_joint" multiplier="0.02" offset="0"/>
   </joint>
   <link name="op_r_hand_narrow3_Link">
     <inertial>
@@ -1238,7 +1245,8 @@
     <parent link="op_r_hand_narrow2_Link"/>
     <child link="op_r_hand_narrow3_Link"/>
     <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="right_gripper_joint" multiplier="0.4" offset="0"/>
   </joint>
   <link name="op_r_hand_narrow4_Link">
   </link>
@@ -1275,8 +1283,9 @@
     <origin rpy="-2.9951 -1.5708 -0.15964" xyz="0 -0.021633 0.07387"/>
     <parent link="op_r_base_link"/>
     <child link="op_r_hand_narrow_loop_Link"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="right_gripper_joint" multiplier="1.5" offset="0"/>
   </joint>
   <link name="op_r_hand_wide1_Link">
     <inertial>
@@ -1305,7 +1314,8 @@
     <parent link="op_r_base_link"/>
     <child link="op_r_hand_wide1_Link"/>
     <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="right_gripper_joint" multiplier="1" offset="0"/>
   </joint>
   <link name="op_r_hand_wide2_Link">
     <inertial>
@@ -1333,8 +1343,9 @@
     <origin rpy="0 0 0" xyz="0.030852 -0.018551 0"/>
     <parent link="op_r_hand_wide1_Link"/>
     <child link="op_r_hand_wide2_Link"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="right_gripper_joint" multiplier="0.02" offset="0"/>
   </joint>
   <link name="op_r_hand_wide3_Link">
     <inertial>
@@ -1362,8 +1373,9 @@
     <origin rpy="0 0 0" xyz="0.018118 0.01574 0"/>
     <parent link="op_r_hand_wide2_Link"/>
     <child link="op_r_hand_wide3_Link"/>
-    <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="right_gripper_joint" multiplier="0.4" offset="0"/>
   </joint>
   <link name="op_r_hand_wide4_Link">
   </link>
@@ -1401,7 +1413,8 @@
     <parent link="op_r_base_link"/>
     <child link="op_r_hand_wide_loop_Link"/>
     <axis xyz="0 0 -1"/>
-    <limit effort="0" lower="-3.14" upper="3.14" velocity="0"/>
+    <limit effort="50" lower="-3.141592653589793" upper="3.141592653589793" velocity="3.141592653589793"/>
+    <mimic joint="right_gripper_joint" multiplier="1.5" offset="0"/>
   </joint>
   <!-- Right Hand -->
 
